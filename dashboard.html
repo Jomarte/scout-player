@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scout Player | Premier League 2024/25</title>
+  <style>
+    :root {
+      --ink: #18222d;
+      --muted: #687785;
+      --line: #dce4e8;
+      --paper: #f5f7f6;
+      --card: #ffffff;
+      --navy: #102b3d;
+      --navy-soft: #183e53;
+      --lime: #d3f36b;
+      --orange: #f07c4f;
+      --cyan: #43b8c7;
+      --shadow: 0 18px 50px rgba(21, 43, 54, .08);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: var(--paper); font-family: Georgia, "Times New Roman", serif; }
+    button, input, select { font: inherit; }
+    .shell { min-height: 100vh; display: grid; grid-template-columns: 238px 1fr; }
+    aside { background: var(--navy); color: #eff7f5; padding: 28px 20px; display: flex; flex-direction: column; gap: 38px; }
+    .brand { display: flex; gap: 11px; align-items: center; }
+    .brand-mark { width: 34px; height: 34px; display: grid; place-items: center; background: var(--lime); color: var(--navy); font: 800 18px Arial, sans-serif; border-radius: 50%; }
+    .brand strong { display: block; font: 800 15px Arial, sans-serif; letter-spacing: .08em; text-transform: uppercase; }
+    .brand span { color: #9db5bc; font: 11px Arial, sans-serif; }
+    .nav-label { color: #78959e; font: 10px Arial, sans-serif; letter-spacing: .15em; text-transform: uppercase; margin: 0 0 11px 8px; }
+    nav { display: grid; gap: 7px; }
+    nav a { color: #a7c0c4; text-decoration: none; padding: 11px 12px; border-radius: 7px; font: 13px Arial, sans-serif; }
+    nav a.active, nav a:hover { color: var(--navy); background: var(--lime); }
+    .aside-note { margin-top: auto; border-top: 1px solid #2b4c5a; padding-top: 18px; color: #9db5bc; font: 11px/1.6 Arial, sans-serif; }
+    main { padding: 34px clamp(22px, 4vw, 58px) 52px; max-width: 1600px; width: 100%; min-width: 0; }
+    .topline { display: flex; justify-content: space-between; gap: 24px; align-items: flex-start; margin-bottom: 28px; }
+    .eyebrow { color: var(--orange); font: 700 11px Arial, sans-serif; letter-spacing: .14em; text-transform: uppercase; }
+    h1 { margin: 6px 0 5px; font-size: clamp(34px, 4vw, 58px); font-weight: 500; letter-spacing: -.03em; line-height: .98; }
+    .intro { margin: 0; color: var(--muted); font: 13px/1.5 Arial, sans-serif; }
+    .season-pill { background: var(--navy); color: var(--lime); padding: 10px 13px; border-radius: 4px; font: 700 11px Arial, sans-serif; letter-spacing: .08em; white-space: nowrap; }
+    .controls { display: grid; grid-template-columns: minmax(230px, 1.5fr) repeat(2, minmax(160px, .7fr)) auto; gap: 10px; margin-bottom: 18px; }
+    .control { border: 1px solid var(--line); background: var(--card); min-height: 44px; min-width: 0; padding: 0 12px; color: var(--ink); border-radius: 4px; outline: none; font: 13px Arial, sans-serif; }
+    .control:focus { border-color: var(--cyan); box-shadow: 0 0 0 3px rgba(67,184,199,.13); }
+    .reset { background: var(--navy); color: white; border: 0; cursor: pointer; padding: 0 15px; border-radius: 4px; font: 700 12px Arial, sans-serif; }
+    .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 18px; }
+    .kpi { background: var(--card); border: 1px solid var(--line); padding: 17px 18px; box-shadow: var(--shadow); }
+    .kpi small { color: var(--muted); display: block; font: 10px Arial, sans-serif; letter-spacing: .1em; text-transform: uppercase; }
+    .kpi strong { display: block; margin-top: 9px; font-size: 31px; font-weight: 500; }
+    .kpi em { color: var(--orange); font: italic 11px Arial, sans-serif; }
+    .grid { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(330px, .65fr); gap: 18px; }
+    .panel { background: var(--card); border: 1px solid var(--line); box-shadow: var(--shadow); min-width: 0; }
+    .panel-head { padding: 17px 19px 13px; display: flex; justify-content: space-between; align-items: baseline; gap: 10px; border-bottom: 1px solid var(--line); }
+    .panel-head h2 { margin: 0; font-size: 20px; font-weight: 500; }
+    .panel-head span { color: var(--muted); font: 11px Arial, sans-serif; }
+    .map-wrap { padding: 13px; }
+    #map { width: 100%; height: 720px; display: block; background: #f8fbfa; border: 1px solid #e7eeee; }
+    #map .link { stroke: var(--orange); stroke-width: 1.8; stroke-dasharray: 5 5; opacity: .54; }
+    #map .link.best { stroke-width: 2.8; stroke-dasharray: none; opacity: .9; }
+    #map .match-point { stroke: var(--orange); stroke-width: 2.4; opacity: .96; }
+    .legend { display: flex; flex-wrap: wrap; gap: 12px; padding: 10px 4px 2px; font: 11px Arial, sans-serif; color: var(--muted); }
+    .legend i { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 5px; }
+    .profile { padding: 20px; }
+    .player-name { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; }
+    .avatar { display: grid; place-items: center; width: 45px; height: 45px; background: var(--lime); border-radius: 50%; font: 800 15px Arial, sans-serif; color: var(--navy); }
+    .player-name h3 { margin: 0; font-size: 23px; font-weight: 500; }
+    .player-name p { margin: 3px 0 0; color: var(--muted); font: 11px Arial, sans-serif; }
+    .stat-list { display: grid; gap: 13px; }
+    .stat-row { display: grid; grid-template-columns: 1fr auto; gap: 12px; font: 12px Arial, sans-serif; }
+    .stat-row label { color: var(--muted); }
+    .stat-row b { font-weight: 700; }
+    .bar { grid-column: 1 / -1; height: 5px; background: #edf1ef; overflow: hidden; }
+    .bar span { display: block; height: 100%; background: var(--cyan); }
+    .similar { margin-top: 22px; border-top: 1px solid var(--line); padding-top: 16px; }
+    .similar h3 { margin: 0 0 12px; font-size: 17px; font-weight: 500; }
+    .match { display: grid; grid-template-columns: 1fr auto; gap: 3px 8px; padding: 9px 0; border-bottom: 1px solid #edf1ef; font: 12px Arial, sans-serif; }
+    .match small { color: var(--muted); grid-column: 1; }
+    .match strong { grid-column: 2; grid-row: 1 / span 2; align-self: center; color: var(--orange); }
+    .table-panel { margin-top: 18px; }
+    .table-scroll { overflow: auto; max-height: 460px; }
+    table { width: 100%; border-collapse: collapse; font: 12px Arial, sans-serif; }
+    th { position: sticky; top: 0; z-index: 1; text-align: left; background: #f2f6f4; color: var(--muted); font-size: 10px; letter-spacing: .07em; text-transform: uppercase; }
+    th, td { padding: 12px 15px; border-bottom: 1px solid #edf1ef; white-space: nowrap; }
+    tbody tr { cursor: pointer; }
+    tbody tr:hover, tbody tr.selected { background: #f5fbdc; }
+    .cluster { display: inline-block; min-width: 24px; text-align: center; padding: 4px 6px; border-radius: 20px; background: #e3f2f2; color: #21747b; font-size: 11px; }
+    .empty { padding: 34px; text-align: center; color: var(--muted); font: 13px Arial, sans-serif; }
+    .status { color: var(--muted); font: 11px Arial, sans-serif; margin-top: 12px; }
+    @media (max-width: 1200px) { .controls { grid-template-columns: 1fr 1fr; } .controls .search { grid-column: 1 / -1; } .grid { grid-template-columns: 1fr; } }
+    @media (max-width: 1050px) { .shell { grid-template-columns: 76px 1fr; } aside { padding: 22px 12px; align-items: center; } .brand { display: block; text-align: center; } .brand-mark { margin: auto; } .brand strong, .brand span, .nav-label, nav a { font-size: 0; } nav a { width: 42px; height: 42px; padding: 0; background: transparent; } nav a.active { background: var(--lime); } .aside-note { display: none; } }
+    @media (max-width: 820px) { main { padding: 24px 16px 40px; } .topline { display: block; } .season-pill { display: inline-block; margin-top: 15px; } .controls, .kpis { grid-template-columns: 1fr 1fr; } .controls .search { grid-column: 1 / -1; } .grid { grid-template-columns: 1fr; } }
+    @media (max-width: 520px) { .shell { grid-template-columns: 1fr; } aside { display: none; } .controls, .kpis { grid-template-columns: 1fr; } .kpi strong { font-size: 27px; } #map { height: 560px; } }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <aside>
+      <div class="brand"><div class="brand-mark">SP</div><strong>Scout Player</strong><span>Intelligence lab</span></div>
+      <div><p class="nav-label">Workspace</p><nav><a class="active" href="#overview">Overview</a><a href="#map-panel">Player map</a><a href="#players">Players</a></nav></div>
+      <div class="aside-note">Premier League<br>Season 2024/25<br><span id="asideStatus">Loading local data...</span></div>
+    </aside>
+    <main>
+      <header class="topline" id="overview"><div><div class="eyebrow">Scouting intelligence / 01</div><h1>Player profiles,<br><i>mapped by style.</i></h1><p class="intro">Explore statistical archetypes and discover the closest player matches.</p></div><div class="season-pill">PREMIER LEAGUE · 2024/25</div></header>
+      <section class="controls" aria-label="Filters"><input id="search" class="control search" list="playerNames" placeholder="Search player..." autocomplete="off"><datalist id="playerNames"></datalist><select id="teamFilter" class="control"><option value="">All teams</option></select><select id="positionFilter" class="control"><option value="">All positions</option></select><button id="reset" class="reset">Reset filters</button></section>
+      <section class="kpis"><div class="kpi"><small>Players in view</small><strong id="kpiPlayers">—</strong><em>from 20 clubs</em></div><div class="kpi"><small>Playstyles</small><strong id="kpiClusters">—</strong><em>in current view</em></div><div class="kpi"><small>Median minutes</small><strong id="kpiMinutes">—</strong><em>sample reliability</em></div><div class="kpi"><small>Selected profile</small><strong id="kpiSelected">—</strong><em>click a player</em></div></section>
+      <section class="grid">
+        <article class="panel" id="map-panel"><div class="panel-head"><h2>Style space</h2><span>Each point = one player · distance from selected profile</span></div><div class="map-wrap"><svg id="map" viewBox="0 0 900 720" role="img" aria-label="Player embedding map"></svg><div id="legend" class="legend"></div><div id="status" class="status">Loading local CSV...</div></div></article>
+        <article class="panel"><div class="panel-head"><h2>Player card</h2><span id="cardCluster">Playstyle —</span></div><div id="profile" class="profile"></div></article>
+      </section>
+      <section class="panel table-panel" id="players"><div class="panel-head"><h2>Player index</h2><span>Click a row to inspect</span></div><div class="table-scroll"><table><thead><tr><th>Player</th><th>Position</th><th>Team</th><th>Minutes</th><th>Goals / 90</th><th>Assists / 90</th><th>Passes / 90</th><th>Dribbles / 90</th><th>Playstyle</th></tr></thead><tbody id="playerRows"></tbody></table><div id="empty" class="empty" hidden>No players match these filters.</div></div></section>
+    </main>
+  </div>
+  <script>
+    const DATA_URL = './data/premier_league_2024_player_embeddings.csv';
+    const featureNames = ['goals_per90','assists_per90','shots_total_per90','shots_on_per90','passes_total_per90','passes_key_per90','tackles_total_per90','tackles_blocks_per90','tackles_interceptions_per90','duels_total_per90','duels_won_per90','dribbles_attempts_per90','dribbles_success_per90','dribbles_past_per90','fouls_drawn_per90','fouls_committed_per90','yellow_cards_per90','red_cards_per90','passes_accuracy','duels_won_pct','dribbles_success_pct'];
+    const playstyleDefinitions = [
+      { name: 'Finisher', weights: { goals_per90: 1.7, shots_total_per90: 1.1, shots_on_per90: 1.3 } },
+      { name: 'Creator', weights: { assists_per90: 1.4, passes_key_per90: 1.6 } },
+      { name: 'Dribbler', weights: { dribbles_attempts_per90: 1.2, dribbles_success_per90: 1.6, fouls_drawn_per90: .8 } },
+      { name: 'Carrier', weights: { dribbles_success_per90: 1.1, fouls_drawn_per90: .9, duels_won_per90: .7, passes_key_per90: .6 } },
+      { name: 'Distributor', weights: { passes_total_per90: 1.5, passes_accuracy: .9, passes_key_per90: .5 } },
+      { name: 'Ball Winner', weights: { tackles_total_per90: 1.5, tackles_interceptions_per90: 1.4, duels_won_per90: .8 } },
+      { name: 'Presser', weights: { tackles_total_per90: 1.2, fouls_committed_per90: .9, duels_total_per90: 1.1 } },
+      { name: 'Duelist', weights: { duels_total_per90: 1.1, duels_won_per90: 1.4, duels_won_pct: .7 } },
+      { name: 'Blocker', weights: { tackles_blocks_per90: 1.7, tackles_interceptions_per90: .9 } },
+    ];
+    const playstyleColors = {
+      'Goalkeeper': '#5b677a',
+      'Finisher': '#e85d75',
+      'Creator': '#7b61ff',
+      'Dribbler': '#00a7a7',
+      'Carrier': '#2f80ed',
+      'Distributor': '#d69e2e',
+      'Ball Winner': '#3f9d63',
+      'Presser': '#f07c4f',
+      'Duelist': '#8a6f4d',
+      'Blocker': '#536878',
+      'Low Event': '#9aa6ac',
+    };
+    let players = [], filtered = [], selected = null, featureStats = {};
+    const $ = (id) => document.getElementById(id);
+    function parseCsv(text) { const lines = text.trim().split(/\r?\n/); const headers = lines.shift().split(','); return lines.map(line => { const values = line.split(','); return Object.fromEntries(headers.map((header, index) => [header, (values[index] || '').replace(/^"|"$/g, '').replace(/""/g, '"')])); }); }
+    function number(value) { const result = Number(value); return Number.isFinite(result) ? result : 0; }
+    function fmt(value, digits = 1) { return number(value).toFixed(digits); }
+    function initials(name) { return name.split(' ').map(part => part.replace('.', '')[0] || '').slice(0, 2).join('').toUpperCase(); }
+    function extent(values) { return [Math.min(...values), Math.max(...values)]; }
+    function scale(value, min, max, padding, size) { return padding + ((value - min) / ((max - min) || 1)) * (size - padding * 2); }
+    function buildFeatureStats() { featureNames.forEach(name => { const values = players.map(player => number(player[name])); const mean = values.reduce((sum, value) => sum + value, 0) / values.length; const variance = values.reduce((sum, value) => sum + (value - mean) ** 2, 0) / values.length; featureStats[name] = { mean, deviation: Math.sqrt(variance) || 1 }; }); }
+    function zScore(player, name) { const stats = featureStats[name]; return stats ? (number(player[name]) - stats.mean) / stats.deviation : 0; }
+    function styleScore(player, definition) { const entries = Object.entries(definition.weights); const totalWeight = entries.reduce((sum, entry) => sum + entry[1], 0); return entries.reduce((sum, entry) => sum + zScore(player, entry[0]) * entry[1], 0) / totalWeight; }
+    function playerPlaystyles(player, limit = 2) { if (player.position === 'Goalkeeper') return ['Goalkeeper']; const ranked = playstyleDefinitions.map(definition => ({ name: definition.name, score: styleScore(player, definition) })).sort((a,b) => b.score - a.score); if (!ranked.length || ranked[0].score < -.35) return ['Low Event']; return ranked.filter((style, index) => index === 0 || (index < limit && style.score >= ranked[0].score - .45 && style.score > -.15)).slice(0, limit).map(style => style.name); }
+    function playstyleLabel(player) { return playerPlaystyles(player).join(' / '); }
+    function playstyleColor(style) { return playstyleColors[style] || playstyleColors['Low Event']; }
+    function playstyleGradientId(player) { return `style-${player.player_id}`.replace(/[^a-zA-Z0-9_-]/g, '-'); }
+    function playstyleBadgeStyle(player) { const styles = playerPlaystyles(player); const colors = styles.map(playstyleColor); return styles.length > 1 ? `background:linear-gradient(135deg, ${colors[0]}, ${colors[1]}); color:#fff;` : `background:${colors[0]}; color:#fff;`; }
+    function zVector(player) { return featureNames.map(name => { const stats = featureStats[name]; return (number(player[name]) - stats.mean) / stats.deviation; }); }
+    function profileDistance(target, candidate) { const targetVector = zVector(target), candidateVector = zVector(candidate); const squared = targetVector.reduce((sum, value, index) => sum + (value - candidateVector[index]) ** 2, 0); return Math.sqrt(squared / targetVector.length); }
+    function compatibility(distance) { return Math.max(0, Math.min(100, 100 / (1 + distance))); }
+    function nearest(target, limit = 5) { return players.filter(player => player.player_id !== target.player_id && player.position === target.position).map(player => { const distance = profileDistance(target, player); return { player, distance, score: compatibility(distance) }; }).sort((a, b) => a.distance - b.distance).slice(0, limit); }
+    function renderKpis() { $('kpiPlayers').textContent = filtered.length; $('kpiClusters').textContent = new Set(filtered.map(player => playerPlaystyles(player)[0])).size; const minutes = filtered.map(player => number(player.minutes)).sort((a,b) => a-b); const middle = minutes.length ? minutes[Math.floor(minutes.length / 2)] : 0; $('kpiMinutes').textContent = Math.round(middle).toLocaleString('en-GB'); $('kpiSelected').textContent = selected ? selected.player_name : '—'; }
+    function renderLegend() { const styles = [...new Set(filtered.flatMap(player => playerPlaystyles(player)))].sort(); $('legend').innerHTML = styles.map(style => `<span><i style="background:${playstyleColor(style)}"></i>${style}</span>`).join(''); }
+    function renderMap() { const svg = $('map'); const width = 900, height = 720, padding = 50; const visible = filtered.length ? filtered : players; const xValues = visible.map(player => number(player.embedding_x)), yValues = visible.map(player => number(player.embedding_y)); const [xMin,xMax] = extent(xValues), [yMin,yMax] = extent(yValues); const globalPoint = player => ({ x: scale(number(player.embedding_x),xMin,xMax,padding,width), y: height - scale(number(player.embedding_y),yMin,yMax,padding,height) }); const matches = selected ? nearest(selected) : []; const visibleIds = new Set(visible.map(player => player.player_id)); const matchIds = new Set(matches.map(match => match.player.player_id)); const useDistanceMap = selected && visibleIds.has(selected.player_id); const distances = useDistanceMap ? visible.filter(player => player.player_id !== selected.player_id).map(player => profileDistance(selected, player)).sort((a,b) => a-b) : []; const referenceDistance = distances.length ? distances[distances.length - 1] || 1 : 1; const center = { x: width / 2, y: height / 2 }; const maxRadius = Math.min(width, height) / 2 - padding - 18; const point = player => { if (!useDistanceMap) return globalPoint(player); if (player.player_id === selected.player_id) return center; const global = globalPoint(player), selectedGlobal = globalPoint(selected); const fallbackAngle = ((number(player.player_id) || visible.indexOf(player)) * 2.3999632297) % (Math.PI * 2); const angle = Math.hypot(global.x - selectedGlobal.x, global.y - selectedGlobal.y) > .01 ? Math.atan2(global.y - selectedGlobal.y, global.x - selectedGlobal.x) : fallbackAngle; const distance = profileDistance(selected, player); const radius = Math.min(maxRadius, Math.max(28, (distance / referenceDistance) * maxRadius)); return { x: center.x + Math.cos(angle) * radius, y: center.y + Math.sin(angle) * radius }; }; const rings = useDistanceMap ? `<circle cx="${center.x}" cy="${center.y}" r="${maxRadius * .25}" fill="none" stroke="#dce4e8" stroke-dasharray="4 5"/><circle cx="${center.x}" cy="${center.y}" r="${maxRadius * .5}" fill="none" stroke="#dce4e8" stroke-dasharray="4 5"/><circle cx="${center.x}" cy="${center.y}" r="${maxRadius * .75}" fill="none" stroke="#dce4e8" stroke-dasharray="4 5"/><circle cx="${center.x}" cy="${center.y}" r="${maxRadius}" fill="none" stroke="#dce4e8" stroke-dasharray="4 5"/><text x="${padding}" y="28" fill="#83949a" font-size="11">Distance from selected player</text><text x="${center.x + 12}" y="${center.y - 14}" fill="#83949a" font-size="11">selected</text>` : `<line x1="${padding}" y1="${height/2}" x2="${width-padding}" y2="${height/2}" stroke="#dce4e8"/><line x1="${width/2}" y1="${padding}" x2="${width/2}" y2="${height-padding}" stroke="#dce4e8"/><text x="${padding}" y="28" fill="#83949a" font-size="11">Embedding Y</text><text x="${width-105}" y="${height-12}" fill="#83949a" font-size="11">Embedding X</text>`; const gradients = visible.map(player => { const styles = playerPlaystyles(player); if (styles.length < 2) return ''; return `<linearGradient id="${playstyleGradientId(player)}" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="${playstyleColor(styles[0])}"/><stop offset="100%" stop-color="${playstyleColor(styles[1])}"/></linearGradient>`; }).join(''); const links = useDistanceMap ? matches.filter(match => visibleIds.has(match.player.player_id)).map((match,index) => { const end = point(match.player); return `<line class="link ${index === 0 ? 'best' : ''}" x1="${center.x}" y1="${center.y}" x2="${end.x}" y2="${end.y}"><title>${selected.player_name} -> ${match.player.player_name}: ${match.score.toFixed(1)}% compatible</title></line>`; }).join('') : ''; svg.innerHTML = `<defs>${gradients}</defs>${rings}${links}` + visible.map(player => { const { x: cx, y: cy } = point(player); const active = selected && selected.player_id === player.player_id; const matched = matchIds.has(player.player_id); const styles = playerPlaystyles(player); const fill = styles.length > 1 ? `url(#${playstyleGradientId(player)})` : playstyleColor(styles[0]); return `<circle class="${matched ? 'match-point' : ''}" cx="${cx}" cy="${cy}" r="${active ? 10 : matched ? 8 : 6}" fill="${fill}" opacity="${active ? 1 : matched ? .96 : .72}" stroke="${active ? '#18222d' : matched ? '#f07c4f' : 'none'}" stroke-width="${active ? 2.8 : matched ? 2.4 : 0}" data-id="${player.player_id}"><title>${player.player_name} · ${player.team_name} · ${playstyleLabel(player)}</title></circle>`; }).join(''); svg.querySelectorAll('circle').forEach(circle => circle.addEventListener('click', () => choose(circle.dataset.id))); }
+    function renderTable() { const body = $('playerRows'); $('empty').hidden = filtered.length > 0; body.innerHTML = filtered.slice().sort((a,b) => number(b.minutes)-number(a.minutes)).map(player => `<tr class="${selected && selected.player_id === player.player_id ? 'selected' : ''}" data-id="${player.player_id}"><td><strong>${player.player_name}</strong></td><td>${player.position}</td><td>${player.team_name}</td><td>${number(player.minutes).toLocaleString('en-GB')}</td><td>${fmt(player.goals_per90)}</td><td>${fmt(player.assists_per90)}</td><td>${fmt(player.passes_total_per90)}</td><td>${fmt(player.dribbles_success_per90)}</td><td><span class="cluster" style="${playstyleBadgeStyle(player)}" title="${playstyleLabel(player)}">${playstyleLabel(player)}</span></td></tr>`).join(''); body.querySelectorAll('tr').forEach(row => row.addEventListener('click', () => choose(row.dataset.id))); }
+    function renderProfile() { if (!selected) { $('profile').innerHTML = '<div class="empty">Select a player from the map or table.</div>'; return; } const rows = [['Goals / 90', selected.goals_per90],['Assists / 90', selected.assists_per90],['Shots / 90', selected.shots_total_per90],['Passes / 90', selected.passes_total_per90],['Key passes / 90', selected.passes_key_per90],['Dribbles won / 90', selected.dribbles_success_per90],['Tackles / 90', selected.tackles_total_per90],['Interceptions / 90', selected.tackles_interceptions_per90]]; const maxes = [1.2, .8, 5, 90, 5, 4, 5, 4]; const matches = nearest(selected); $('cardCluster').textContent = playstyleLabel(selected); $('profile').innerHTML = `<div class="player-name"><div class="avatar">${initials(selected.player_name)}</div><div><h3>${selected.player_name}</h3><p>${selected.position} · ${selected.team_name} · ${number(selected.minutes).toLocaleString('en-GB')} min</p></div></div><div class="stat-list">${rows.map((row,index) => `<div class="stat-row"><label>${row[0]}</label><b>${fmt(row[1])}</b><div class="bar"><span style="width:${Math.min(100, number(row[1]) / maxes[index] * 100)}%"></span></div></div>`).join('')}</div><div class="similar"><h3>Closest profiles</h3>${matches.map(match => `<div class="match"><span>${match.player.player_name}</span><strong>${match.score.toFixed(1)}%</strong><small>${match.player.team_name} · ${match.player.position} · ${playstyleLabel(match.player)} · dist. ${match.distance.toFixed(2)}</small></div>`).join('')}</div>`; }
+    function choose(id) { selected = players.find(player => player.player_id === String(id)) || players.find(player => player.player_id === id) || selected; renderKpis(); renderMap(); renderTable(); renderProfile(); }
+    function applyFilters() { const query = $('search').value.toLowerCase().trim(), team = $('teamFilter').value, position = $('positionFilter').value; filtered = players.filter(player => (!query || `${player.player_name} ${player.team_name}`.toLowerCase().includes(query)) && (!team || player.team_name === team) && (!position || player.position === position)); renderKpis(); renderLegend(); renderMap(); renderTable(); }
+    function setupFilters() { [...new Set(players.map(player => player.player_name).sort((a,b) => a.localeCompare(b)))].forEach(name => $('playerNames').insertAdjacentHTML('beforeend', `<option value="${name.replace(/"/g, '&quot;')}"></option>`)); [...new Set(players.map(player => player.team_name).sort())].forEach(team => $('teamFilter').insertAdjacentHTML('beforeend', `<option>${team}</option>`)); [...new Set(players.map(player => player.position).sort())].forEach(position => $('positionFilter').insertAdjacentHTML('beforeend', `<option>${position}</option>`)); ['search','teamFilter','positionFilter'].forEach(id => $(id).addEventListener('input', applyFilters)); $('reset').addEventListener('click', () => { $('search').value = ''; $('teamFilter').value = ''; $('positionFilter').value = ''; applyFilters(); }); }
+    fetch(DATA_URL).then(response => { if (!response.ok) throw new Error('CSV not found'); return response.text(); }).then(text => { players = parseCsv(text); buildFeatureStats(); filtered = players.slice(); setupFilters(); selected = players.find(player => player.player_name === 'B. Saka') || players[0]; $('asideStatus').textContent = `${players.length} profiles loaded`; $('status').textContent = `Loaded ${players.length} players · map radius = normalized statistical distance · nearest links use same metric`; applyFilters(); choose(selected.player_id); }).catch(error => { $('status').textContent = `Could not load local data: ${error.message}. Start a local server in the project folder.`; $('asideStatus').textContent = 'Data unavailable'; });
+  </script>
+</body>
+</html>

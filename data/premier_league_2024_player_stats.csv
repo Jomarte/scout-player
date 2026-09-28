@@ -1,0 +1,558 @@
+player_id,player_name,first_name,last_name,age,nationality,team_id,team_name,league_id,league_name,position,appearances,minutes,lineups,rating,goals,assists,shots_total,shots_on,passes_total,passes_key,passes_accuracy,tackles_total,tackles_blocks,tackles_interceptions,duels_total,duels_won,dribbles_attempts,dribbles_success,dribbles_past,fouls_drawn,fouls_committed,yellow_cards,red_cards
+174,C. Eriksen,Christian,Dannemann Eriksen,33,Denmark,33,Manchester United,39,Premier League,Midfielder,35,1092,22,6.936363,1,2,8,2,657,31,,19,5,7,63,24,4,,,3,8,4,0
+526,A. Onana,André,Onana Onana,29,Cameroon,33,Manchester United,39,Premier League,Goalkeeper,34,3060,34,6.900000,,0,,,1165,1,,2,,,13,11,1,1,,2,,0,0
+532,M. de Ligt,Matthijs,de Ligt,26,Netherlands,33,Manchester United,39,Premier League,Defender,30,2128,28,6.913793,2,0,14,9,1370,6,42,30,21,33,160,102,4,2,,12,16,3,0
+545,N. Mazraoui,Noussair,Mazraoui,28,Morocco,33,Manchester United,39,Premier League,Defender,37,2848,34,6.980555,,1,7,3,1589,20,,115,9,34,350,216,44,26,,25,38,3,0
+747,Casemiro,Carlos Henrique,Casimiro,34,Brazil,33,Manchester United,39,Premier League,Midfielder,24,1513,22,7.195833,1,0,25,10,960,22,,83,10,14,222,141,6,3,,19,20,5,0
+886,Diogo Dalot,José Diogo,Dalot Teixeira,27,Portugal,33,Manchester United,39,Premier League,Defender,33,2813,31,6.975757,,3,17,5,1373,27,,68,9,37,264,142,49,27,,9,40,5,0
+889,V. Lindelöf,Victor Jörgen,Nilsson Lindelöf,32,Sweden,33,Manchester United,39,Premier League,Defender,16,725,11,6.671428,,0,,,380,3,,7,4,8,50,25,,,,1,8,1,0
+891,L. Shaw,Luke Paul Hoare,Shaw,30,England,33,Manchester United,39,Premier League,Defender,8,348,6,6.814285,,0,1,,277,6,,4,1,2,14,8,1,,,1,3,1,0
+903,S. McTominay,Scott Francis,McTominay,29,Scotland,33,Manchester United,39,Premier League,Midfielder,2,22,1,6.500000,,0,,,9,,,,,,4,1,1,,,,,0,0
+909,M. Rashford,Marcus,Rashford,28,England,33,Manchester United,39,Premier League,Attacker,15,983,12,7.000000,4,2,14,7,134,13,,10,,1,48,23,22,9,,3,1,2,0
+1165,Matheus Cunha,Matheus Santos,Carneiro da Cunha,26,Brazil,33,Manchester United,39,Premier League,Attacker,33,2600,32,7.630303,15,6,80,44,949,58,,38,1,17,394,183,122,61,,71,42,4,0
+1485,Bruno Fernandes,Bruno Miguel,Borges Fernandes,31,Portugal,33,Manchester United,39,Premier League,Midfielder,36,3024,35,7.605555,8,10,65,29,2020,91,45,84,6,26,359,174,61,28,,40,32,5,2
+2467,Lisandro Martínez,Lisandro,Martínez,27,Argentina,33,Manchester United,39,Premier League,Defender,22,1754,21,7.130000,2,1,11,6,1314,9,59,40,8,32,123,69,7,6,,7,22,7,0
+2935,H. Maguire,Jacob Harry,Maguire,32,England,33,Manchester United,39,Premier League,Defender,30,1764,24,6.892592,1,0,13,7,1118,8,,30,12,40,160,107,5,2,,11,18,7,0
+9971,Antony,Antony Matheus,dos Santos,25,Brazil,33,Manchester United,39,Premier League,Attacker,8,133,0,6.600000,0,0,5,3,59,3,,6,,2,28,15,10,4,,5,2,0,0
+18772,J. Evans,Jonathan Grant,Evans,37,Northern Ireland,33,Manchester United,39,Premier League,Defender,7,314,3,6.942857,0,0,2,1,214,,,8,2,5,35,24,1,1,,6,5,1,0
+19220,M. Mount,Mason Tony,Mount,26,England,33,Manchester United,39,Premier League,Midfielder,20,625,14,6.635294,1,0,15,9,237,8,,15,1,4,73,29,9,1,,9,16,3,0
+37145,T. Malacia,Tyrell Johannes Chicco,Malacia,26,Netherlands,33,Manchester United,39,Premier League,Defender,3,101,2,6.566666,0,0,,,48,1,,2,,1,11,5,1,1,,2,3,1,0
+50132,A. Bayındır,Altay,Bayındır,27,Türkiye,33,Manchester United,39,Premier League,Goalkeeper,4,360,4,6.400000,,0,,,140,,,,,,4,2,,,,1,,0,0
+51494,M. Ugarte,Manuel,Ugarte Ribeiro,25,Uruguay,33,Manchester United,39,Premier League,Midfielder,29,1796,27,6.824137,1,2,12,4,897,10,,77,4,27,277,146,28,18,,33,41,11,0
+70100,J. Zirkzee,Joshua Orobosa,Zirkzee,24,Netherlands,33,Manchester United,39,Premier League,Attacker,32,1406,24,6.603125,3,1,19,11,405,12,,14,4,6,181,59,35,11,,13,9,2,0
+157997,A. Diallo,Amad,Diallo Traoré,23,Côte d'Ivoire,33,Manchester United,39,Premier League,Attacker,26,1901,20,7.400000,8,6,27,17,854,49,,38,2,11,243,117,84,41,,28,21,5,0
+284322,K. Mainoo,Kobbie Boateng,Mainoo,20,England,33,Manchester United,39,Premier League,Midfielder,26,1656,24,6.736000,,0,7,2,818,14,,46,2,19,242,109,48,23,,21,27,5,0
+284324,A. Garnacho,Alejandro,Garnacho Ferreyra,21,Argentina,33,Manchester United,39,Premier League,Attacker,36,2196,23,6.797222,6,2,55,30,750,37,,30,,13,265,102,81,26,,43,12,3,0
+284400,Tobias Christopher Collyer,Tobias Christopher,Collyer,21,England,33,Manchester United,39,Premier League,Midfielder,17,175,8,7.016666,,0,1,,90,2,,12,1,2,25,20,2,1,,4,2,0,0
+288006,R. Højlund,Rasmus,Winther Højlund,22,Denmark,33,Manchester United,39,Premier League,Attacker,34,2022,28,6.562500,4,0,25,13,325,16,,3,,2,241,71,30,9,,28,17,2,0
+328101,T. Fredricson,Tyler,Fredricson,20,England,33,Manchester United,39,Premier League,Defender,8,166,6,6.950000,,0,,,122,,55,5,,1,21,15,1,1,,2,,0,0
+342970,L. Yoro,Leny,Yoro,20,France,33,Manchester United,39,Premier League,Defender,21,1169,18,6.657142,,0,3,1,757,2,,29,3,18,86,49,4,2,,2,9,5,0
+169,K. Trippier,Kieran John,Trippier,35,England,34,Newcastle,39,Premier League,Defender,25,1310,14,6.960000,0,3,2,,1037,22,,38,3,12,132,75,8,4,,11,16,1,0
+723,Joelinton,Joelinton Cássio,Apolinário de Lira,29,Brazil,34,Newcastle,39,Premier League,Midfielder,29,2404,29,6.937931,4,3,32,14,1008,24,,57,7,22,369,165,43,15,,35,58,10,0
+1463,J. Willock,Joseph George,Willock,26,England,34,Newcastle,39,Premier League,Midfielder,32,1075,11,6.665625,0,2,12,3,338,22,,30,6,6,147,60,29,12,,13,23,4,0
+2507,M. Almirón,Miguel Ángel,Almirón Rejala,31,Paraguay,34,Newcastle,39,Premier League,Midfielder,9,150,1,6.812500,0,0,5,2,64,3,,3,,,14,7,2,1,,3,1,0,0
+2806,F. Schär,Fabian Lukas,Schär,34,Switzerland,34,Newcastle,39,Premier League,Defender,34,2937,33,6.964705,4,0,28,11,1941,5,48,36,25,45,251,115,11,8,,15,35,9,1
+2855,E. Krafth,Emil Henry Kristoffer,Krafth,31,Sweden,34,Newcastle,39,Premier League,Defender,26,349,13,6.650000,,0,,,140,1,,4,4,2,31,14,1,,,2,5,2,0
+2864,A. Isak,Alexander,Isak,26,Sweden,34,Newcastle,39,Premier League,Attacker,34,2769,34,7.279411,23,6,76,46,658,42,,12,2,3,285,94,89,42,,14,27,1,0
+2939,C. Wilson,Callum Eddie Graham,Wilson,33,England,34,Newcastle,39,Premier League,Attacker,18,368,9,6.341176,,0,4,1,50,3,,2,,1,44,6,5,1,,1,4,1,0
+10135,Bruno Guimarães,Bruno,Guimarães Rodriguez Moura,28,Brazil,34,Newcastle,39,Premier League,Midfielder,38,3282,38,7.200000,5,6,36,15,1758,53,,83,10,30,464,243,61,34,,108,65,7,0
+18778,H. Barnes,Harvey Lewis,Barnes,28,England,34,Newcastle,39,Premier League,Midfielder,34,1766,26,7.021212,9,4,40,21,548,26,,16,2,6,163,69,58,25,,22,15,0,0
+18886,M. Dúbravka,Martin,Dúbravka,36,Slovakia,34,Newcastle,39,Premier League,Goalkeeper,10,900,10,7.030000,0,0,,,278,,,,,,5,5,,,,1,,0,0
+18901,S. Longstaff,Sean David,Longstaff,28,England,34,Newcastle,39,Premier League,Midfielder,25,785,8,6.691304,0,0,3,1,343,4,,27,5,7,78,42,6,2,,6,9,2,0
+18911,N. Pope,Nicholas David,Pope,33,England,34,Newcastle,39,Premier League,Goalkeeper,31,2520,30,7.057142,,0,,,590,1,,,,1,20,16,,,,5,2,2,0
+18941,M. Targett,Matthew Robert,Targett,30,England,34,Newcastle,39,Premier League,Defender,18,20,9,6.700000,,0,,,14,,,,,1,1,,,,,,,0,0
+18961,D. Burn,Daniel Johnson,Burn,33,England,34,Newcastle,39,Premier League,Defender,37,3330,37,6.978378,1,1,20,7,1993,9,47,39,26,27,328,200,4,3,,12,34,11,0
+19163,J. Murphy,Jacob Kai,Murphy,30,England,34,Newcastle,39,Premier League,Midfielder,35,2379,31,7.128571,8,11,31,15,844,41,,28,,13,202,83,66,35,,15,11,4,0
+19192,J. Ramsey,Jacob Matthew,Ramsey,24,England,34,Newcastle,39,Premier League,Midfielder,29,1628,22,6.879310,1,3,12,4,569,22,,30,4,8,161,90,38,25,,28,13,4,1
+19263,L. Kelly,Lloyd Casius,Kelly,27,England,34,Newcastle,39,Premier League,Defender,10,300,4,6.533333,0,1,3,,165,2,,5,4,1,28,18,3,2,,5,5,2,0
+31146,S. Tonali,Sandro,Tonali,25,Italy,34,Newcastle,39,Premier League,Midfielder,36,2631,32,7.052777,4,2,22,12,1462,28,,51,11,34,244,132,34,20,,49,37,5,0
+38734,S. Botman,Sven Adriaan,Botman,25,Netherlands,34,Newcastle,39,Premier League,Defender,10,418,8,7.057142,,0,2,2,245,2,,12,4,5,52,34,2,1,,4,5,1,0
+138787,A. Gordon,Anthony Michael,Gordon,24,England,34,Newcastle,39,Premier League,Attacker,34,2444,31,7.076470,6,5,40,19,809,52,,32,2,7,287,149,85,38,,71,20,2,0
+153430,A. Elanga,Anthony David,Junior Elanga,23,Sweden,34,Newcastle,39,Premier League,Attacker,38,2508,34,7.018421,6,11,37,24,631,50,,20,1,6,256,116,64,25,,47,9,1,0
+158694,T. Livramento,Valentino Francisco,Livramento,23,England,34,Newcastle,39,Premier League,Defender,37,2842,36,6.875675,,1,4,2,1355,26,,54,11,23,271,141,48,25,,35,6,1,0
+284492,L. Hall,Lewis Kieran,Hall,21,England,34,Newcastle,39,Premier League,Defender,27,2192,24,7.274074,0,4,7,1,1313,34,41,58,18,18,221,120,18,11,,21,9,3,0
+315237,W. Osula,William Idamudia,Daugaard Osula,22,Denmark,34,Newcastle,39,Premier League,Attacker,38,168,19,6.558333,1,0,3,1,25,2,,2,,4,29,12,6,3,,1,4,0,0
+328105,L. Miley,Lewis,Miley,19,England,34,Newcastle,39,Premier League,Midfielder,26,324,14,6.616666,1,0,2,2,190,1,,14,1,2,41,22,2,1,,1,3,0,0
+792,J. Kluivert,Justin Dean,Kluivert,26,Netherlands,35,Bournemouth,39,Premier League,Attacker,34,2356,31,7.161764,12,6,52,29,679,45,,23,,14,258,100,76,36,,33,47,8,0
+912,Neto,Norberto,Murara Neto,36,Brazil,35,Bournemouth,39,Premier League,Goalkeeper,2,180,2,8.000000,0,0,,,54,,,,,,2,2,,,,2,,0,0
+1125,R. Christie,Ryan,Christie,30,Scotland,35,Bournemouth,39,Premier League,Midfielder,29,2131,28,7.100000,2,3,20,12,999,41,,54,11,30,281,127,45,23,,31,43,9,0
+1150,T. Adams,Tyler Shaan,Adams,26,USA,35,Bournemouth,39,Premier League,Midfielder,29,1965,22,6.864285,,3,2,2,1056,18,,83,10,32,254,139,14,4,,21,45,7,0
+2273,Kepa,Kepa,Arrizabalaga Revuelta,31,Spain,35,Bournemouth,39,Premier League,Goalkeeper,31,2790,31,7.145161,0,0,1,,901,1,,1,,,20,15,1,1,,6,2,3,0
+2734,P. Billing,Philip,Anyanwu Billing,29,Denmark,35,Bournemouth,39,Premier League,Midfielder,10,177,1,6.830000,0,0,4,1,90,8,,14,,5,35,23,1,1,,2,3,1,0
+6610,M. Senesi,Marcos Nicolás,Senesi Barón,28,Argentina,35,Bournemouth,39,Premier League,Defender,21,1118,18,6.823529,,0,3,,714,5,,39,7,14,162,85,10,6,,8,22,5,0
+18860,M. Travers,Mark,Travers,26,Republic of Ireland,35,Bournemouth,39,Premier League,Goalkeeper,5,450,5,7.640000,0,0,,,113,,,,,,2,2,,,,1,,0,0
+18869,A. Smith,Adam James,Smith,34,England,35,Bournemouth,39,Premier League,Defender,25,1597,19,6.576000,0,0,2,,525,9,,24,5,15,117,56,13,6,,12,19,7,0
+18870,D. Brooks,David Robert,Brooks,28,Wales,35,Bournemouth,39,Premier League,Midfielder,29,949,9,6.725000,2,0,22,12,348,21,,14,2,5,119,50,31,11,,18,11,3,0
+18872,L. Cook,Lewis John,Cook,28,England,35,Bournemouth,39,Premier League,Midfielder,36,2978,34,7.002777,1,3,11,4,1378,48,,81,11,41,281,145,20,13,,10,49,8,1
+19070,M. Aarons,Maximillian James,Aarons,25,England,35,Bournemouth,39,Premier League,Defender,14,85,8,6.800000,,0,,,51,,,2,1,1,5,4,1,,,2,,0,0
+19245,M. Tavernier,Marcus Joseph,Tavernier,26,England,35,Bournemouth,39,Premier League,Midfielder,29,1938,25,7.037931,3,5,40,17,792,43,,44,3,5,287,126,59,28,,28,34,6,0
+19281,A. Semenyo,Antoine Serlom,Semenyo,25,Ghana,35,Bournemouth,39,Premier League,Attacker,37,3209,37,7.210810,11,5,81,41,997,46,,55,9,11,536,227,126,69,,37,73,9,0
+20093,J. Hill,James Clayton,Hill,23,England,35,Bournemouth,39,Premier League,Defender,10,448,6,6.722222,0,1,4,,205,3,,15,,9,63,35,2,1,,5,7,1,0
+37161,L. Sinisterra,Luis Fernando,Sinisterra Lucumí,26,Colombia,35,Bournemouth,39,Premier League,Attacker,12,229,1,6.910000,1,1,9,6,85,10,,7,,1,48,20,18,8,,2,4,0,0
+47499,E. Ünal,Enes,Ünal,28,Türkiye,35,Bournemouth,39,Premier League,Forward,17,345,9,6.647058,2,1,16,7,94,4,,1,,,89,35,11,1,,9,6,2,0
+51051,J. Araujo,Julián Vicente,Araujo Zúñiga,24,Mexico,35,Bournemouth,39,Premier League,Defender,19,516,12,6.358333,,0,,,191,1,,10,,6,41,15,1,,,2,7,2,0
+152856,Evanilson,Francisco Evanilson,de Lima Barbosa,26,Brazil,35,Bournemouth,39,Premier League,Forward,31,2335,30,7.090322,10,1,57,32,341,26,,16,2,1,252,119,15,7,,53,37,1,1
+161671,I. Zabarnyi,Illia,Zabarnyi,23,Ukraine,35,Bournemouth,39,Premier League,Defender,36,3112,35,6.938888,0,1,9,1,1697,12,,52,20,41,226,142,8,6,,7,20,4,1
+206254,M. Kerkez,Miloš,Kerkez,22,Hungary,35,Bournemouth,39,Premier League,Defender,38,3342,38,7.042105,2,5,11,5,1349,37,,52,11,46,284,152,39,22,,50,30,4,0
+284797,D. Ouattara,Dango Aboubacar Faissal,Ouattara,23,Burkina Faso,35,Bournemouth,39,Premier League,Attacker,32,2007,21,7.071875,7,4,48,20,495,35,,35,10,11,306,138,73,39,,19,16,3,0
+296458,D. Jebbison,Daniel David,Jebbison,22,Canada,35,Bournemouth,39,Premier League,Attacker,20,180,10,6.557142,1,0,5,2,39,3,,5,1,1,37,15,7,4,,4,2,1,0
+304853,A. Scott,Alex Jay,Scott,22,England,35,Bournemouth,39,Premier League,Midfielder,21,751,15,6.731578,,0,11,7,332,12,,27,4,10,134,66,19,6,,26,17,3,0
+361497,D. Huijsen,Dean Donny,Huijsen,20,Netherlands,35,Bournemouth,39,Premier League,Defender,38,2422,31,7.229032,3,2,12,4,1601,15,42,36,29,51,206,116,5,2,,10,31,10,0
+363333,J. Soler,Julio César,Soler Barreto,20,Argentina,35,Bournemouth,39,Premier League,Defender,13,24,6,6.500000,,0,,,13,,,1,,,2,2,,,,1,,0,0
+402432,Ben Winterburn,Ben,Winterburn,21,England,35,Bournemouth,39,Premier League,Midfielder,20,22,9,6.800000,,0,,,7,,,,,2,3,2,,,,1,,0,0
+402434,Remy Rees-Dottin,Remy,Rees-Dottin,19,England,35,Bournemouth,39,Premier League,Attacker,7,1,4,,,0,,,,,,,,,,,,,,,,0,0
+104,Carlos Vinícius,Carlos Vinícius,Alves Morais,31,Brazil,36,Fulham,39,Premier League,Forward,3,33,1,6.600000,,0,1,1,3,,,,,,4,3,1,1,,2,,0,0
+131,Jorge Cuenca,Jorge,Cuenca Barreno,26,Spain,36,Fulham,39,Premier League,Defender,26,358,14,6.500000,,0,1,,170,,,6,4,2,26,16,2,2,,2,2,0,0
+657,K. Tete,Kenny Joelle,Tete,30,Netherlands,36,Fulham,39,Premier League,Defender,24,1779,22,7.036363,,2,12,2,767,9,,56,12,32,191,105,15,9,,16,35,5,0
+727,R. Nelson,Reiss Luke,Nelson,26,England,36,Fulham,39,Premier League,Attacker,11,486,5,,1,0,,,,,,1,,,4,2,,,,1,1,1,0
+899,Andreas Pereira,Andreas Hugo,Hoelgebaum Pereira,29,Brazil,36,Fulham,39,Premier League,Midfielder,33,2024,25,6.903030,2,4,26,9,784,57,,24,2,8,188,75,22,14,,24,28,8,0
+1161,E. Smith Rowe,Emile,Smith Rowe,25,England,36,Fulham,39,Premier League,Midfielder,34,2061,30,6.933333,6,3,24,11,999,24,,31,2,11,156,67,32,16,,14,19,3,0
+1438,B. Leno,Bernd,Leno,33,Germany,36,Fulham,39,Premier League,Goalkeeper,38,3420,38,7.013157,,1,,,1237,2,,2,,,16,15,,,,4,,5,0
+1455,A. Iwobi,Alexander Chuka,Iwobi,29,Nigeria,36,Fulham,39,Premier League,Attacker,38,2994,37,7.281578,9,6,48,29,1376,60,,44,1,14,261,117,90,48,,18,19,1,0
+1934,S. Berge,Sander Gard,Bolin Berge,27,Norway,36,Fulham,39,Premier League,Midfielder,31,2232,28,6.829032,,0,2,1,1190,18,,50,8,21,185,99,17,11,,10,31,6,0
+2729,J. Andersen,Joachim Christian,Andersen,29,Denmark,36,Fulham,39,Premier League,Defender,29,2584,29,6.300000,0,0,1,1,82,,61,1,,,7,3,,,,,2,6,1
+2823,S. Lukić,Saša,Lukić,29,Serbia,36,Fulham,39,Premier League,Midfielder,30,2356,29,6.910000,,2,11,3,1195,27,,68,7,28,256,121,13,8,,26,66,12,0
+2887,R. Jiménez,Raúl Alonso,Jiménez Rodríguez,35,Mexico,36,Fulham,39,Premier League,Forward,38,2505,34,7.013157,12,3,73,33,616,24,,35,5,10,412,189,47,21,,41,39,4,0
+2920,T. Castagne,Timothy,Castagne,30,Belgium,36,Fulham,39,Premier League,Defender,33,1651,26,6.812500,,1,6,3,785,9,,46,6,22,170,91,10,5,,6,15,1,0
+18753,Adama Traoré,Adama,Traoré Diarra,29,Spain,36,Fulham,39,Premier League,Attacker,37,1794,26,6.822222,2,7,24,12,484,42,,20,,1,244,125,84,48,,32,24,3,0
+18814,I. Diop,Issa Laye Lucas Jean,Diop,28,France,36,Fulham,39,Premier League,Defender,30,1357,21,6.710000,,0,4,2,755,3,,26,7,9,81,51,2,1,,4,10,2,0
+19025,T. Cairney,Thomas,Cairney,34,Scotland,36,Fulham,39,Premier League,Midfielder,35,632,21,6.856000,2,0,7,4,606,11,,13,1,4,70,42,9,5,,19,8,3,1
+19032,R. Sessegnon,Kouassi Ryan,Sessegnon,25,England,36,Fulham,39,Premier League,Midfielder,16,578,7,6.957142,4,2,11,8,212,12,,27,1,3,106,47,18,8,,4,20,1,0
+19221,H. Wilson,Harry,Wilson,28,Wales,36,Fulham,39,Premier League,Attacker,28,1163,21,7.076000,6,1,32,17,398,21,,20,1,7,109,56,19,9,,22,12,2,0
+19480,H. Reed,Harrison James,Reed,30,England,36,Fulham,39,Premier League,Midfielder,12,99,0,6.409090,0,0,3,2,48,1,,6,,1,22,9,1,,,2,6,2,0
+19549,A. Robinson,Antonee,Robinson,28,USA,36,Fulham,39,Premier League,Defender,36,3167,36,7.136111,,10,11,2,1628,44,,95,9,61,364,203,72,38,,20,31,8,0
+152967,C. Bassey,Calvin,Bassey Ughelumba,26,Nigeria,36,Fulham,39,Premier League,Defender,37,3074,36,6.865714,1,0,9,4,2135,3,54,54,17,20,231,144,26,15,,32,26,7,0
+195106,Rodrigo Muniz,Rodrigo,Muniz Carvalho,24,Brazil,36,Fulham,39,Premier League,Attacker,31,950,8,6.846666,8,1,36,19,140,7,,10,2,5,221,114,15,6,,31,11,1,0
+359386,M. Godo,Becket Fabrice-Martial,Godo,22,England,36,Fulham,39,Premier League,Attacker,2,21,0,6.600000,0,0,,,14,1,,,,1,6,1,4,1,,,1,0,0
+389315,Joshua King,Joshua,King,18,England,36,Fulham,39,Premier League,Midfielder,23,145,12,6.750000,,0,1,,62,3,,7,,1,32,14,8,4,,2,3,0,0
+130,Nélson Semedo,Nélson,Cabral Semedo,32,Portugal,39,Wolves,39,Premier League,Defender,34,2891,34,6.770588,,4,12,7,1091,25,,62,10,23,317,152,63,32,,30,48,8,0
+925,Gonçalo Guedes,Gonçalo Manuel,Ganchinho Guedes,29,Portugal,39,Wolves,39,Premier League,Forward,29,1011,20,6.562962,2,4,19,8,310,14,,16,,5,119,47,24,9,,17,15,1,0
+1165,Matheus Cunha,Matheus Santos,Carneiro da Cunha,26,Brazil,39,Wolves,39,Premier League,Attacker,33,2603,29,7.630303,15,6,80,44,949,58,,38,1,17,394,183,122,61,,71,42,4,0
+1590,José Sá,José Pedro,Malheiro de Sá,33,Portugal,39,Wolves,39,Premier League,Goalkeeper,29,2609,29,6.768965,,0,,,800,3,,2,,,35,30,8,8,,9,4,2,0
+1605,Daniel Podence,Daniel,Castelo Podence,30,Portugal,39,Wolves,39,Premier League,Forward,2,46,1,6.450000,,0,1,,15,,,,,,6,4,2,2,,2,,0,0
+2032,J. Strand Larsen,Jørgen,Strand Larsen,25,Norway,39,Wolves,39,Premier League,Attacker,35,2601,30,6.888571,14,4,49,34,451,21,,10,4,6,315,104,19,8,,19,46,4,0
+2056,Pablo Sarabia,Pablo,Sarabia García,33,Spain,39,Wolves,39,Premier League,Forward,23,819,15,6.730434,3,2,15,8,379,15,,16,,4,99,42,13,6,,15,16,2,0
+3080,M. Munetsi,Marshall Nyasha,Munetsi,29,Zimbabwe,39,Wolves,39,Premier League,Midfielder,14,1079,14,6.864285,2,1,16,7,201,9,,24,1,6,135,66,10,3,,10,19,0,0
+18742,M. Doherty,Matthew James,Doherty,33,Republic of Ireland,39,Wolves,39,Premier League,Defender,30,2113,25,7.000000,2,1,6,3,1208,12,,38,15,22,174,116,18,11,,11,18,6,0
+18947,M. Lemina,Mario René Junior,Lemina,32,Gabon,39,Wolves,39,Premier League,Midfielder,17,1363,15,7.023529,1,3,14,5,589,10,,51,7,27,151,94,14,10,,8,17,4,0
+19143,S. Johnstone,Samuel Luke,Johnstone,32,England,39,Wolves,39,Premier League,Goalkeeper,7,630,7,,0,,,,,,,,,,,,,,,,,0,0
+19147,C. Dawson,Craig,Dawson,35,England,39,Wolves,39,Premier League,Defender,15,967,10,6.633333,0,0,4,1,558,2,,15,11,9,64,42,3,1,,5,6,2,0
+19341,D. Bentley,Daniel Ian,Bentley,32,England,39,Wolves,39,Premier League,Goalkeeper,18,180,11,6.950000,,0,,,60,,,,,,2,2,,,,,,0,0
+20665,J. Bellegarde,Jean-Ricner,Bellegarde,27,France,39,Wolves,39,Premier League,Midfielder,37,1706,28,6.808823,2,7,16,5,550,29,,39,3,10,225,110,45,14,,47,31,3,0
+21138,R. Aït-Nouri,Rayan,Aït-Nouri,24,Algeria,39,Wolves,39,Premier League,Defender,37,3129,37,7.008108,4,7,21,13,1377,47,,89,6,27,408,220,119,63,,46,30,6,0
+24888,Hwang Hee-Chan,Hee-Chan,Hwang,29,Korea Republic,39,Wolves,39,Premier League,Attacker,21,650,5,6.585000,2,0,4,3,189,3,,6,,2,61,20,14,2,,9,6,0,0
+41606,Toti Gomes,Tote António,Gomes,26,Portugal,39,Wolves,39,Premier League,Defender,31,2616,30,6.890322,0,1,7,3,1662,9,46,61,17,25,233,149,30,20,,15,24,7,0
+135068,E. Agbadou,Emmanuel Elysee,Djedje Agbadou Badobre,28,Côte d'Ivoire,39,Wolves,39,Premier League,Defender,16,1411,16,7.112500,1,0,6,2,991,4,53,30,13,13,110,70,12,10,,4,7,3,0
+135334,S. Bueno,Santiago Ignacio,Bueno Sciutto,27,Uruguay,39,Wolves,39,Premier League,Defender,37,1716,27,6.660714,,0,6,3,836,,,41,21,15,147,80,4,,,5,26,2,0
+144732,T. Doyle,Thomas Glyn,Doyle,24,England,39,Wolves,39,Premier League,Midfielder,33,521,20,6.657142,,1,6,2,370,7,,11,5,5,47,22,6,5,,5,5,1,0
+195103,João Gomes,João Victor,Gomes da Silva,24,Brazil,39,Wolves,39,Premier League,Midfielder,36,2987,36,6.861111,3,1,24,7,1571,23,,117,4,25,441,205,58,30,,47,70,11,1
+195717,Y. Mosquera,Yerson,Mosquera Valdelamar,24,Colombia,39,Wolves,39,Premier League,Defender,5,442,5,7.020000,0,0,1,,237,2,40,11,10,10,47,29,,,,7,6,2,0
+195962,Chiquinho,Francisco Jorge,Tavares Oliveira,26,Portugal,39,Wolves,39,Premier League,Forward,1,12,1,6.700000,,0,,,2,1,,,,,1,,,,,,1,0,0
+265784,André,André Trindade,da Costa Neto,24,Brazil,39,Wolves,39,Premier League,Midfielder,35,2495,33,6.931250,,0,8,1,1335,18,,92,8,37,244,144,28,16,,34,36,7,0
+282126,Carlos Forbs,Carlos Roberto,Forbs Borges,21,Portugal,39,Wolves,39,Premier League,Attacker,27,241,15,6.525000,,0,,,80,2,,8,,1,33,17,12,7,,1,2,2,0
+282770,Rodrigo Gomes,Rodrigo Martins,Gomes,23,Portugal,39,Wolves,39,Premier League,Defender,25,823,16,6.734782,2,0,5,3,246,13,,23,1,7,87,42,12,5,,6,4,0,0
+303322,N. Djiga,Yacouba Nasser,Djiga,23,Burkina Faso,39,Wolves,39,Premier League,Defender,13,65,7,6.250000,,0,,,46,,,,,2,6,2,,,,1,,0,0
+449245,Pedro Lima,Pedro Henrique,Cardoso de Lima,20,Brazil,39,Wolves,39,Premier League,Defender,3,70,3,6.850000,,0,1,1,26,2,,1,,2,11,3,3,1,,1,1,0,0
+456206,M. Mane,Mateus Bula,Dami Mané,18,England,39,Wolves,39,Premier League,Attacker,5,1,1,,,0,,,5,,,,,,1,1,,,,,,0,0
+247,C. Gakpo,Cody Mathès,Gakpo,26,Netherlands,40,Liverpool,39,Premier League,Attacker,35,1945,28,7.220000,10,4,47,23,547,38,,28,3,12,209,106,51,30,,31,20,5,0
+280,Alisson Becker,Alisson Ramsés,Becker,33,Brazil,40,Liverpool,39,Premier League,Goalkeeper,28,2509,28,7.110714,,0,,,828,1,,1,,,12,11,1,1,,2,,0,0
+281,C. Kelleher,Caoimhín Odhrán,Kelleher,27,Republic of Ireland,40,Liverpool,39,Premier League,Goalkeeper,10,900,10,6.880000,0,0,,,332,,,,,,5,5,1,1,,3,,0,0
+283,T. Alexander-Arnold,Trent John,Alexander-Arnold,27,England,40,Liverpool,39,Premier League,Defender,33,2377,28,7.257575,3,6,27,8,1616,56,,72,9,31,212,100,33,16,,9,11,5,0
+284,J. Gomez,Joseph Dave,Gomez,28,England,40,Liverpool,39,Premier League,Defender,9,518,6,6.900000,0,0,3,2,416,2,41,13,6,7,38,25,,,,3,2,1,0
+289,A. Robertson,Andrew Henry,Robertson,31,Scotland,40,Liverpool,39,Premier League,Defender,38,2492,34,6.836363,,1,13,3,1541,40,41,39,4,20,128,61,17,7,,8,11,3,1
+290,V. van Dijk,Virgil,van Dijk,34,Netherlands,40,Liverpool,39,Premier League,Defender,38,3330,38,7.275675,3,1,24,8,2920,12,72,38,16,56,252,173,5,3,,13,17,5,0
+293,C. Jones,Curtis Julian,Jones,24,England,40,Liverpool,39,Premier League,Midfielder,34,1735,28,6.878125,3,3,19,13,1059,22,,39,9,7,174,90,20,12,,25,18,3,1
+306,Mohamed Salah,Mohamed,Salah Hamed Mahrous Ghaly,33,Egypt,40,Liverpool,39,Premier League,Attacker,38,3377,38,7.792105,29,18,104,61,1153,91,,22,,9,313,127,130,57,,39,25,1,0
+542,R. Gravenberch,Ryan Jiro,Gravenberch,23,Netherlands,40,Liverpool,39,Premier League,Midfielder,37,3168,37,7.070270,,4,13,5,1904,26,46,69,10,59,324,184,67,37,,52,47,6,1
+1096,D. Szoboszlai,Dominik,Szoboszlai,25,Hungary,40,Liverpool,39,Premier League,Midfielder,36,2495,29,7.130555,6,6,42,23,1242,56,,40,5,9,238,104,39,21,,24,44,6,0
+1145,I. Konaté,Ibrahima,Konaté,26,France,40,Liverpool,39,Premier League,Defender,32,2565,32,7.132258,1,2,15,4,1895,10,55,41,15,17,208,138,5,3,,20,27,5,0
+1600,K. Tsimikas,Konstantinos,Tsimikas,29,Greece,40,Liverpool,39,Premier League,Defender,18,834,9,7.016666,0,1,3,2,525,17,,31,2,11,82,47,10,5,,6,9,2,0
+2489,L. Díaz,Luis Fernando,Díaz Marulanda,29,Colombia,40,Liverpool,39,Premier League,Forward,36,2410,34,7.269444,13,5,49,30,827,56,,39,,7,344,136,104,53,,31,48,2,0
+2678,Diogo Jota,Diogo José,Teixeira da Silva,29,Portugal,40,Liverpool,39,Premier League,Attacker,26,1194,14,6.700000,6,3,35,13,297,11,,14,,8,170,61,31,11,,14,23,2,0
+6716,A. Mac Allister,Alexis,Mac Allister,27,Argentina,40,Liverpool,39,Premier League,Midfielder,35,2607,32,7.242857,5,5,25,14,1425,45,,97,6,22,358,172,37,16,,40,62,6,0
+8500,W. Endo,Wataru,Endo,32,Japan,40,Liverpool,39,Premier League,Midfielder,20,257,1,6.656250,0,0,,,189,2,,12,1,6,50,24,2,2,,7,15,0,0
+19035,H. Elliott,Harvey Daniel James,Elliott,22,England,40,Liverpool,39,Premier League,Midfielder,18,356,2,6.831250,1,2,13,4,269,10,,5,2,1,27,11,8,4,,1,,1,0
+30410,F. Chiesa,Federico,Chiesa,28,Italy,40,Liverpool,39,Premier League,Attacker,6,104,1,6.416666,0,0,3,2,28,2,,1,,,18,3,2,,,2,3,0,0
+51617,D. Núñez,Darwin Gabriel,Núñez Ribeiro,27,Uruguay,40,Liverpool,39,Premier League,Forward,30,1137,17,6.786666,5,2,28,13,224,12,,21,,4,167,63,22,8,,14,27,8,0
+158698,J. Quansah,Jarell,Amorin Quansah,22,England,40,Liverpool,39,Premier League,Defender,13,487,4,6.600000,0,0,,,378,2,,12,7,7,47,21,3,1,,1,9,2,0
+162687,V. Jaroš,Vítězslav,Jaroš,24,Czechia,40,Liverpool,39,Premier League,Goalkeeper,12,11,5,7.300000,,0,,,6,,,,,,,,,,,,,0,0
+180317,C. Bradley,Conor,Bradley,22,Northern Ireland,40,Liverpool,39,Premier League,Defender,19,748,7,6.783333,0,2,5,3,476,7,,14,2,4,96,49,22,10,,14,12,4,0
+314661,J. Danns,Jayden,Danns,19,England,40,Liverpool,39,Premier League,Attacker,1,10,0,6.300000,0,0,,,1,,,,,,2,,,,,,,0,0
+171,K. Walker-Peters,Kyle Leonardus,Walker-Peters,28,England,41,Southampton,39,Premier League,Defender,33,2922,33,6.809090,0,2,12,6,1496,25,41,44,15,18,291,145,77,38,,52,28,5,0
+295,A. Lallana,Adam David,Lallana,37,England,41,Southampton,39,Premier League,Midfielder,14,357,5,6.630769,0,2,2,,255,4,,8,1,5,52,23,10,5,,8,8,4,0
+665,M. Cornet,Gnaly Albert Maxwel,Cornet,29,Côte d'Ivoire,41,Southampton,39,Premier League,Attacker,5,71,2,6.700000,,0,,,19,,,5,,,14,9,1,,,1,,1,0
+2999,J. Bednarek,Jan Kacper,Bednarek,30,Poland,41,Southampton,39,Premier League,Defender,30,2535,30,6.956666,2,0,4,3,1677,5,51,36,36,56,207,122,3,3,,13,31,7,0
+15812,P. Onuachu,Ebere Paul,Onuachu,31,Nigeria,41,Southampton,39,Premier League,Forward,25,1067,20,6.678260,4,1,26,15,262,8,,7,2,1,262,124,24,8,,16,28,4,0
+18873,R. Fraser,Ryan,Fraser,31,Scotland,41,Southampton,39,Premier League,Midfielder,8,307,4,6.125000,0,0,1,1,86,2,,6,1,1,23,14,3,2,,4,1,0,1
+18918,C. Taylor,Charles James,Taylor,32,England,41,Southampton,39,Premier League,Defender,8,351,3,6.687500,0,0,,,192,1,,7,5,5,25,18,2,2,,3,2,1,0
+18935,A. McCarthy,Alex Simon,McCarthy,36,England,41,Southampton,39,Premier League,Goalkeeper,5,450,5,7.120000,0,0,,,126,,,,,,3,3,,,,1,,0,0
+18940,J. Stephens,Jack,Stephens,31,England,41,Southampton,39,Premier League,Defender,19,1393,17,6.716666,1,0,4,2,938,3,48,34,13,13,86,44,4,,,4,13,2,2
+19248,N. Wood-Gordon,Nathan Dean Joshua,Wood-Gordon,23,England,41,Southampton,39,Premier League,Defender,11,774,9,6.690909,0,0,2,,471,1,44,14,6,5,59,37,5,4,,4,9,2,0
+19484,A. Armstrong,Adam James,Armstrong,28,England,41,Southampton,39,Premier League,Attacker,20,1254,15,6.595000,2,2,18,9,269,9,,12,1,3,86,28,14,6,,5,12,4,0
+19485,B. Brereton,Benjamin Anthony,Brereton Díaz,26,Chile,41,Southampton,39,Premier League,Attacker,10,446,4,6.510000,0,0,5,1,159,3,,3,1,,46,21,3,1,,8,4,1,0
+19573,J. Lumley,Joseph Patrick,Lumley,30,England,41,Southampton,39,Premier League,Goalkeeper,3,270,3,6.800000,0,0,,,136,,,,,,4,3,,,,,,0,0
+19587,R. Manning,Ryan Phelim,Manning,29,Republic of Ireland,41,Southampton,39,Premier League,Defender,24,1470,18,6.987500,0,1,3,1,621,34,,29,11,17,142,87,27,11,,32,19,2,0
+19719,J. Bree,James Patrick,Bree,28,England,41,Southampton,39,Premier League,Defender,17,1076,13,6.670588,0,1,1,1,531,9,,20,3,9,74,41,6,4,,5,4,0,0
+19733,F. Downes,Flynn,Downes,26,England,41,Southampton,39,Premier League,Midfielder,27,2156,25,6.722222,1,0,6,3,1105,15,,49,9,32,224,114,16,8,,39,50,12,0
+19825,J. Aribo,Joseph Oluwaseyi Temitope,Ayodele-Aribo,29,Nigeria,41,Southampton,39,Premier League,Midfielder,32,2014,21,6.734375,3,0,11,7,1031,16,,48,11,20,225,121,44,21,,28,20,1,0
+20355,A. Ramsdale,Aaron Christopher,Ramsdale,27,England,41,Southampton,39,Premier League,Goalkeeper,30,2700,30,,0,,,,,,,,,,,,,,,,,2,0
+25061,A. Bella-Kotchap,Armel,Bella-Kotchap,24,Germany,41,Southampton,39,Premier League,Defender,12,329,7,6.450000,,0,1,,223,,50,7,2,5,27,15,1,,,2,3,0,0
+32887,Y. Sugawara,Yukinari,Sugawara,25,Japan,41,Southampton,39,Premier League,Defender,35,1564,24,6.703333,1,1,9,6,720,18,,31,10,11,103,55,19,9,,10,15,4,0
+45078,R. Stewart,Ross Cameron,Stewart,29,Scotland,41,Southampton,39,Premier League,Attacker,12,385,4,6.500000,1,0,5,2,95,,,6,,1,75,29,5,3,,7,7,1,0
+130421,W. Smallbone,William Anthony Patrick,Smallbone,25,Republic of Ireland,41,Southampton,39,Premier League,Midfielder,18,682,6,6.552941,1,0,3,1,313,10,,20,,2,71,31,6,4,,3,11,1,0
+137302,C. Archer,Cameron Desmond,Archer,24,England,41,Southampton,39,Premier League,Attacker,35,1430,13,6.440000,2,0,22,11,246,5,,13,1,2,148,50,35,15,,13,16,0,0
+144729,T. Harwood-Bellis,Taylor Jay,Harwood-Bellis,23,England,41,Southampton,39,Premier League,Defender,34,2828,32,6.873529,1,0,14,8,2123,14,55,28,43,30,213,108,3,3,,14,35,9,0
+159420,R. Edwards,Ronnie,Lee Edwards,22,England,41,Southampton,39,Premier League,Defender,1,12,0,6.200000,0,0,,,5,,,,1,,,,,,,,,0,0
+180919,Welington,Welington Damascena,Santos,24,Brazil,41,Southampton,39,Premier League,Defender,10,482,6,6.677777,0,0,1,,142,3,,21,1,6,63,39,8,5,,8,6,1,0
+195993,C. Alcaraz,Carlos Jonas,Alcaraz Duran,23,Argentina,41,Southampton,39,Premier League,Midfielder,1,9,0,7.040000,0,3,20,11,260,14,,11,2,5,95,46,16,9,,12,13,0,0
+199837,K. Sulemana,Kamaldeen,Sulemana,23,Ghana,41,Southampton,39,Premier League,Attacker,26,1405,17,6.616000,1,1,16,8,330,10,,22,4,6,218,84,94,38,,11,22,2,0
+263177,A. Grønbæk,Albert,Grønbæk Erlykke,24,Denmark,41,Southampton,39,Premier League,Midfielder,4,143,2,6.300000,0,0,,,16,1,,4,1,,22,7,4,,,1,,0,0
+270508,L. Ugochukwu,Lesley Chimuanya,Ugochukwu,21,France,41,Southampton,39,Premier League,Midfielder,26,1663,18,6.688000,1,1,6,1,698,14,,48,10,14,189,103,28,19,,16,31,7,0
+278085,S. Edozie,Samuel Ikechukwu,Edozie,22,England,41,Southampton,39,Premier League,Midfielder,2,63,0,6.900000,0,0,,,29,1,,3,,,10,6,4,2,,1,2,1,0
+304317,T. Dibling,Tyler-Jay,Dibling,19,England,41,Southampton,39,Premier League,Midfielder,33,1872,20,6.712121,2,0,20,9,585,20,,34,5,8,303,139,89,45,,50,30,6,0
+334035,S. Amo-Ameyaw,Samuel,Amo-Ameyaw,19,England,41,Southampton,39,Premier League,Attacker,2,26,0,6.500000,0,0,,,7,1,,1,,,10,3,3,,,2,1,1,0
+336585,Mateus Fernandes,Mateus Gonçalo,Espanha Fernandes,22,Portugal,41,Southampton,39,Premier League,Midfielder,36,2919,35,6.944444,2,4,22,14,1233,34,,89,8,28,383,207,96,48,,55,46,8,0
+380691,Jay Robinson,Jay,Robinson,18,England,41,Southampton,39,Premier League,Attacker,4,135,1,6.750000,0,0,1,1,33,3,,4,,,26,11,11,6,,1,3,0,0
+395809,J. Sanda,Joachim,Kayi Sanda,19,France,41,Southampton,39,Premier League,Defender,2,12,0,6.550000,0,0,,,15,,,,,2,1,,,,,,,0,0
+49,T. Partey,Thomas,Teye Partey,32,Ghana,42,Arsenal,39,Premier League,Midfielder,35,2798,31,7.154285,4,2,21,9,1840,19,46,89,9,35,300,172,33,24,,31,45,4,0
+641,O. Zinchenko,Oleksandr,Zinchenko,29,Ukraine,42,Arsenal,39,Premier League,Defender,31,542,18,6.742857,,1,2,,402,3,,5,1,5,52,23,4,3,,3,8,1,0
+643,Gabriel Jesus,Gabriel Fernando,de Jesus,28,Brazil,42,Arsenal,39,Premier League,Attacker,17,603,6,6.862500,3,0,16,8,190,8,,10,1,4,97,38,19,9,,10,14,4,0
+645,R. Sterling,Raheem Shaquille,Sterling,31,England,42,Arsenal,39,Premier League,Attacker,17,496,7,6.643750,0,2,4,,182,8,,9,,1,71,28,20,10,,8,12,1,0
+727,R. Nelson,Reiss Luke,Nelson,26,England,42,Arsenal,39,Premier League,Attacker,2,2,1,,,0,,,,,,1,,,4,2,,,,1,1,0,0
+978,K. Havertz,Kai Lukas,Havertz,26,Germany,42,Arsenal,39,Premier League,Attacker,23,1875,21,7.056521,9,3,44,21,502,17,,16,4,6,282,111,33,9,,23,38,5,0
+1117,K. Tierney,Kieran,Tierney,28,Scotland,42,Arsenal,39,Premier League,Defender,13,250,2,6.863636,1,0,2,1,145,8,,7,,3,25,16,3,2,,2,1,0,0
+1460,B. Saka,Bukayo Ayoyinka Temidayo,Saka,24,England,42,Arsenal,39,Premier League,Attacker,25,1735,22,7.528000,6,10,41,23,598,61,,30,,3,243,120,78,41,,39,15,3,0
+1946,L. Trossard,Leandro,Trossard,31,Belgium,42,Arsenal,39,Premier League,Attacker,38,2551,28,7.078947,8,7,44,22,853,42,,31,,9,280,121,75,38,,46,27,3,0
+2273,Kepa,Kepa,Arrizabalaga Revuelta,31,Spain,42,Arsenal,39,Premier League,Goalkeeper,32,2790,31,7.145161,,0,1,,901,1,,1,,,20,15,1,1,,6,2,3,0
+2289,Jorginho,Jorge Luiz,Frello Filho,34,Italy,42,Arsenal,39,Premier League,Midfielder,15,705,9,6.675000,0,0,2,,473,3,,12,,7,74,31,3,1,,17,15,5,0
+2597,T. Tomiyasu,Takehiro,Tomiyasu,27,Japan,42,Arsenal,39,Premier League,Defender,1,16,0,6.700000,,0,1,,4,,,,,,,,,,,,,0,0
+2937,D. Rice,Declan,Rice,26,England,42,Arsenal,39,Premier League,Midfielder,35,2833,33,7.351428,4,7,33,15,1476,61,,53,13,25,236,120,28,14,,16,21,6,0
+19465,David Raya,David,Raya Martin,30,Spain,42,Arsenal,39,Premier League,Goalkeeper,38,3420,38,7.052631,0,0,,,1232,1,,,,2,27,24,1,1,,10,1,3,0
+19959,B. White,Benjamin William,White,28,England,42,Arsenal,39,Premier League,Defender,20,1213,18,6.970588,,2,5,2,590,10,,20,8,16,94,43,5,,,5,10,2,0
+22090,W. Saliba,William Alain André Gabriel,Saliba,24,France,42,Arsenal,39,Premier League,Defender,35,3042,35,6.997142,2,0,5,3,2548,7,68,61,15,21,236,151,18,12,,17,28,2,1
+22224,Gabriel Magalhães,Gabriel,dos Santos Magalhães,28,Brazil,42,Arsenal,39,Premier League,Defender,28,2366,28,7.239285,3,1,15,5,1628,14,52,25,29,16,164,101,5,4,,19,19,4,0
+37127,M. Ødegaard,Martin,Ødegaard,27,Norway,42,Arsenal,39,Premier League,Midfielder,30,2331,26,7.290000,3,8,30,17,1390,64,40,19,,6,186,75,57,25,,23,12,4,0
+38746,J. Timber,Jurriën David Norman,Timber,24,Netherlands,42,Arsenal,39,Premier League,Defender,30,2423,27,6.953333,1,3,8,4,1182,17,,58,4,22,240,133,48,24,,29,31,7,0
+47311,Mikel Merino,Mikel,Merino Zazón,29,Spain,42,Arsenal,39,Premier League,Midfielder,28,1581,17,7.039285,7,2,31,15,558,18,,46,5,15,286,137,19,9,,23,41,3,0
+61431,J. Kiwior,Jakub Piotr,Kiwior,26,Poland,42,Arsenal,39,Premier League,Defender,17,1132,13,6.888235,1,0,1,1,729,5,,22,8,6,71,40,5,3,,4,10,1,0
+127769,Gabriel Martinelli,Gabriel Teodoro,Martinelli Silva,24,Brazil,42,Arsenal,39,Premier League,Attacker,33,2298,25,6.893939,8,4,40,25,589,40,,23,,5,261,94,92,33,,21,16,1,0
+153407,N. Butler-Oyedeji,Nathan Jerome Chatoyer,Butler-Oyedeji,22,England,42,Arsenal,39,Premier League,Attacker,1,6,0,6.700000,0,0,1,1,,,,,,,,,,,,,,0,0
+157052,R. Calafiori,Riccardo,Calafiori,23,Italy,42,Arsenal,39,Premier League,Defender,22,984,16,6.938888,2,1,9,6,479,6,,27,6,9,113,64,12,9,,6,16,4,0
+313236,E. Nwaneri,Ethan Chidiebere,Nwaneri,18,England,42,Arsenal,39,Premier League,Midfielder,36,946,22,6.915384,4,2,12,9,364,16,,11,2,2,123,57,56,37,,5,9,1,0
+313245,M. Lewis-Skelly,Myles Anthony,Lewis-Skelly,19,England,42,Arsenal,39,Premier League,Defender,23,1370,15,6.778260,1,0,1,1,667,8,,22,1,7,132,92,21,12,,47,11,3,2
+894,A. Young,Ashley Simon,Young,40,England,45,Everton,39,Premier League,Defender,32,1868,19,6.896774,1,3,3,3,737,26,,58,4,25,169,97,16,7,,22,30,7,1
+895,J. Garner,James David,Garner,24,England,45,Everton,39,Premier League,Midfielder,21,1595,17,6.942857,0,1,10,4,697,13,,47,4,23,151,80,20,7,,15,20,5,0
+2165,V. Mykolenko,Vitalii,Mykolenko,26,Ukraine,45,Everton,39,Premier League,Defender,35,3084,35,6.988571,1,2,8,1,972,25,,63,10,44,258,152,17,8,,34,22,4,0
+2932,J. Pickford,Jordan Lee,Pickford,31,England,45,Everton,39,Premier League,Goalkeeper,38,3420,38,7.260526,0,1,,,1425,2,,1,,1,15,13,,,,7,,7,0
+2934,M. Keane,Michael Vincent,Keane,32,England,45,Everton,39,Premier League,Defender,14,1046,11,6.984615,3,0,8,4,372,2,,12,10,16,76,38,1,,,,9,5,0
+2936,J. Tarkowski,James Alan,Tarkowski,33,England,45,Everton,39,Premier League,Defender,33,2924,33,7.266666,1,1,11,4,1277,16,,64,42,41,291,199,7,5,,28,35,6,0
+2990,I. Gueye,Idrissa Gana,Gueye,36,Senegal,45,Everton,39,Premier League,Midfielder,37,3070,35,6.983783,0,3,20,5,1400,19,,133,9,48,389,221,37,18,,46,55,9,0
+15884,J. Lindstrøm,Jesper Grænge,Lindstrøm,25,Denmark,45,Everton,39,Premier League,Midfielder,25,1241,15,6.656000,0,1,20,10,348,19,,45,3,12,187,69,39,8,,10,15,2,0
+17661,J. Branthwaite,Jarrad Paul,Branthwaite,23,England,45,Everton,39,Premier League,Defender,30,2510,28,7.053333,0,1,7,3,1184,3,,36,23,27,186,118,5,3,,18,12,4,0
+18592,I. Ndiaye,Iliman Cheikh,Baroy Ndiaye,25,Senegal,45,Everton,39,Premier League,Attacker,33,2441,29,7.051515,9,0,27,18,691,18,,53,5,20,355,179,132,68,,52,24,3,0
+18758,S. Coleman,Séamus,Coleman,37,Republic of Ireland,45,Everton,39,Premier League,Defender,5,215,3,6.580000,0,0,1,1,74,,,3,3,1,14,10,5,4,,1,,1,0
+18766,D. Calvert-Lewin,Dominic Nathaniel,Calvert-Lewin,28,England,45,Everton,39,Premier League,Attacker,26,1629,23,6.669230,3,1,42,20,282,8,,9,2,7,283,127,23,10,,23,27,2,0
+18805,A. Doucouré,Abdoulaye,Doucouré,32,Mali,45,Everton,39,Premier League,Midfielder,33,2577,31,6.757575,3,2,18,10,874,27,,48,6,10,285,107,45,24,,5,49,4,0
+18860,M. Travers,Mark,Travers,26,Republic of Ireland,45,Everton,39,Premier League,Goalkeeper,23,450,15,7.640000,,0,,,113,,,,,,2,2,,,,1,,0,0
+18929,D. McNeil,Dwight James Matthew,McNeil,26,England,45,Everton,39,Premier League,Attacker,21,1376,19,7.185000,4,6,19,10,505,38,,13,,6,146,58,44,24,,18,6,1,0
+19128,J. Harrison,Jack David,Harrison,29,England,45,Everton,39,Premier League,Attacker,34,2084,24,6.657575,1,0,19,7,513,34,,32,2,10,244,88,67,24,,28,13,0,0
+19150,M. Holgate,Mason Anthony,Holgate,29,England,45,Everton,39,Premier League,Defender,1,5,0,6.200000,0,0,,,,,,,,,1,,,,,,,0,0
+24882,O. Mangala,Orel Johnson,Mangala,27,Belgium,45,Everton,39,Premier League,Midfielder,19,1262,14,6.931578,1,0,14,6,483,8,,16,3,21,109,53,23,14,,17,24,2,0
+82855,T. King,Thomas Lloyd,King,30,Wales,45,Everton,39,Premier League,Goalkeeper,3,1,2,,,0,,,,,,,,,,,,,,,,0,0
+125743,Beto,Norberto Bercique,Gomes Betuncal,28,Portugal,45,Everton,39,Premier League,Forward,30,1541,22,6.763333,8,0,41,23,265,12,,14,2,4,350,155,36,19,,23,33,2,0
+138417,N. Patterson,Nathan Kenneth,Patterson,24,Scotland,45,Everton,39,Premier League,Defender,10,343,3,6.675000,0,1,1,,120,4,,11,,2,46,22,11,9,,1,6,1,0
+138822,A. Broja,Armando,Broja,24,Albania,45,Everton,39,Premier League,Attacker,10,331,4,6.570000,0,0,4,,71,4,,3,,1,80,33,15,8,,4,6,1,0
+195993,C. Alcaraz,Carlos Jonas,Alcaraz Duran,23,Argentina,45,Everton,39,Premier League,Midfielder,15,761,7,7.040000,2,3,20,11,260,14,,11,2,5,95,46,16,9,,12,13,4,0
+270139,J. O&apos;Brien,Jake,O'Brien,24,Republic of Ireland,45,Everton,39,Premier League,Defender,20,1569,17,6.905000,2,0,4,3,605,6,,26,4,4,137,76,9,4,,5,13,5,0
+284500,T. Iroegbunam,Timothy Emeka,Iroegbunam,22,England,45,Everton,39,Premier League,Midfielder,18,563,5,6.623529,0,1,3,,155,3,,29,4,16,114,60,16,8,,12,15,4,0
+297640,Roman Dixon,Roman,Dixon,21,England,45,Everton,39,Premier League,Defender,3,90,2,6.200000,,0,,,16,,,5,,1,11,5,3,,,,,0,0
+330412,Youssef Chermiti,Youssef,Ramalho Chermiti,22,Portugal,45,Everton,39,Premier League,Forward,4,49,2,6.466666,,0,1,1,10,,,,,,8,4,1,1,,1,1,1,0
+405360,H. Armstrong,Harrison,Armstrong,18,England,45,Everton,39,Premier League,Midfielder,3,45,0,6.300000,0,0,1,,13,1,,,,,11,3,1,1,,2,2,1,0
+180,O. Skipp,Oliver William,Skipp,25,England,46,Leicester,39,Premier League,Midfielder,24,1121,10,6.537500,0,0,3,1,495,9,,21,7,11,98,53,12,7,,13,21,8,0
+182,H. Winks,Harry Billy,Winks,29,England,46,Leicester,39,Premier League,Midfielder,22,1539,17,6.822727,0,2,9,4,1003,17,40,24,7,9,96,48,11,3,,13,9,4,0
+879,S. Mavididi,Stephy Alvaro,Mavididi,27,England,46,Leicester,39,Premier League,Attacker,30,1615,16,6.713333,4,1,16,7,528,24,,34,2,11,238,96,82,35,,18,18,2,0
+1098,P. Daka,Patson,Daka,27,Zambia,46,Leicester,39,Premier League,Attacker,23,721,6,6.531818,1,0,10,4,137,1,,20,1,1,128,51,13,2,,19,15,0,0
+1135,O. Édouard,Odsonne,Édouard,27,France,46,Leicester,39,Premier League,Attacker,4,25,0,6.700000,0,0,3,1,27,1,,1,,,14,2,1,,,,4,0,0
+3428,J. Ayew,Jordan Pierre,Ayew,34,Ghana,46,Leicester,39,Premier League,Attacker,30,1642,19,6.300000,5,0,1,,9,1,,1,,,5,2,,,,,1,5,0
+8694,W. Faes,Wout Felix Lina,Faes,27,Belgium,46,Leicester,39,Premier League,Defender,34,2811,30,6.800000,1,0,9,1,1550,4,40,42,35,25,192,103,6,5,,11,23,4,0
+15870,M. Hermansen,Mads,Hermansen,25,Denmark,46,Leicester,39,Premier League,Goalkeeper,27,2386,27,6.962962,0,0,,,936,,,1,,,10,9,1,1,,3,,1,0
+18146,D. Ward,Daniel,Ward,32,Wales,46,Leicester,39,Premier League,Goalkeeper,2,134,1,6.250000,0,0,,,44,,,,,,1,,1,,,,,0,0
+18741,C. Coady,Conor David,Coady,32,England,46,Leicester,39,Premier League,Defender,22,1714,19,6.545454,1,0,2,2,1069,1,44,13,24,13,65,29,2,1,,2,8,3,0
+18771,Ricardo Pereira,Ricardo Domingos,Barbosa Pereira,32,Portugal,46,Leicester,39,Premier League,Defender,10,392,8,6.750000,,0,2,1,210,,,13,3,4,49,31,8,6,,8,6,1,0
+18779,H. Choudhury,Hamza,Dewan Choudhury,28,England,46,Leicester,39,Premier League,Midfielder,4,130,1,6.675000,0,0,,,76,2,,1,2,5,8,4,4,3,,,1,0,0
+18786,W. Ndidi,Onyinye Wilfred,Ndidi,29,Nigeria,46,Leicester,39,Premier League,Midfielder,28,2336,28,6.939285,,5,20,8,1004,17,,86,19,30,357,178,31,13,,18,39,8,0
+18788,J. Vardy,Jamie Richard,Vardy,38,England,46,Leicester,39,Premier League,Attacker,35,2840,35,6.754285,9,4,47,26,371,19,,19,4,5,215,103,21,11,,23,25,5,0
+18943,J. Vestergaard,Jannik,Vestergaard,33,Denmark,46,Leicester,39,Premier League,Defender,20,1395,17,6.744444,,0,2,2,954,3,48,22,14,16,93,56,4,4,,4,12,5,0
+19004,B. De Cordova-Reid,Bobby Armani,De Cordova-Reid,32,Jamaica,46,Leicester,39,Premier League,Attacker,23,740,9,6.490476,1,2,5,3,186,6,,9,1,,75,24,8,,,9,9,2,0
+19760,J. Justin,James Michael,Justin,27,England,46,Leicester,39,Premier League,Defender,36,2920,34,6.769444,2,2,14,7,1233,14,,58,18,46,315,180,22,9,,44,29,6,0
+22233,B. Soumaré,Boubakary,Soumaré,26,France,46,Leicester,39,Premier League,Midfielder,31,2171,25,6.706451,0,0,4,,1219,11,,37,10,27,191,108,41,27,,23,24,8,0
+30427,C. Okoli,Memeh Caleb,Okoli,24,Italy,46,Leicester,39,Premier League,Defender,19,1122,12,6.752941,1,0,4,2,643,,,25,14,15,103,57,,,,9,16,4,0
+128338,W. Coulibaly,Woyo,Coulibaly,26,France,46,Leicester,39,Premier League,Defender,4,107,1,6.600000,0,0,2,1,44,,,6,1,5,13,7,1,,,1,2,1,0
+152969,L. Thomas,Luke Jonathan,Thomas,24,England,46,Leicester,39,Premier League,Defender,14,1113,13,6.853846,0,0,,,516,9,,31,6,21,111,57,6,3,,10,16,3,0
+152970,J. Stolarczyk,Jakub,Stolarczyk,25,Poland,46,Leicester,39,Premier League,Goalkeeper,10,900,10,6.930000,0,0,,,350,,,2,,,8,7,,,,,,1,0
+158710,V. Kristiansen,Victor,Bernth Kristiansen,23,Denmark,46,Leicester,39,Premier League,Defender,30,2490,29,6.723333,0,1,3,,1027,18,,87,15,42,260,135,17,8,,18,19,1,0
+283290,K. McAteer,Kasey,McAteer,24,England,46,Leicester,39,Premier League,Midfielder,18,851,9,6.694117,1,1,12,7,218,9,,21,2,5,134,55,21,6,,15,18,3,0
+303467,A. Fatawu,Issahaku Abdul,Fatawu,22,Ghana,46,Leicester,39,Premier League,Forward,11,577,9,7.055555,,2,11,5,158,6,,21,,4,154,84,57,29,,20,11,0,0
+311334,F. Buonanotte,Facundo Valentín,Buonanotte,21,Argentina,46,Leicester,39,Premier League,Midfielder,31,1515,14,6.829032,5,2,27,12,515,25,,53,6,12,341,134,78,28,,35,37,8,0
+330986,M. Golding,Michael Heinz,Golding,19,England,46,Leicester,39,Premier League,Midfielder,2,1,1,,,0,,,,,,,,,,,,,,,,0,0
+340573,B. El Khannouss,Bilal,El Khannouss,21,Morocco,46,Leicester,39,Premier League,Midfielder,32,2194,27,6.887500,2,3,19,7,956,42,,51,4,6,247,117,57,34,,13,30,4,0
+417310,O. Aluko,Olabade,Aluko,19,England,46,Leicester,39,Premier League,Defender,2,1,2,,,0,,,5,,,1,,,3,1,1,,,,,0,0
+434183,J. Evans,Jake,Evans,17,England,46,Leicester,39,Premier League,Attacker,5,31,3,6.400000,,0,,,3,,,1,,,4,1,,,,,,0,0
+460853,J. Monga,Jeremy,Monga,16,England,46,Leicester,39,Premier League,Midfielder,7,118,3,6.585714,,0,2,1,25,1,,2,2,,15,9,5,2,,5,,0,0
+164,B. Davies,Benjamin Thomas,Davies,32,Wales,47,Tottenham,39,Premier League,Defender,24,1330,18,6.870588,,0,4,1,1009,2,52,18,19,12,146,78,1,1,,7,17,5,0
+186,Son Heung-Min,Heung-Min,Son,33,Korea Republic,47,Tottenham,39,Premier League,Attacker,30,2116,24,7.263333,7,9,39,26,833,50,,17,,5,193,80,70,29,,28,6,1,0
+739,Reguilón,Sergio,Reguilón Rodríguez,29,Spain,47,Tottenham,39,Premier League,Defender,4,194,1,6.700000,0,0,1,,107,1,,4,,4,26,17,3,2,,6,2,2,0
+863,R. Bentancur,Rodrigo,Bentancur Colmán,28,Uruguay,47,Tottenham,39,Premier League,Midfielder,26,1654,21,6.896153,2,0,13,6,1067,10,,40,8,40,207,94,16,9,,10,34,9,0
+1166,T. Werner,Timo,Werner,29,Germany,47,Tottenham,39,Premier League,Attacker,18,508,4,6.635294,0,3,8,3,198,10,,6,1,1,49,21,18,10,,5,3,0,0
+2413,Richarlison,Richarlison,de Andrade,28,Brazil,47,Tottenham,39,Premier League,Attacker,17,514,11,6.606666,4,1,15,7,96,4,,5,1,,84,29,15,1,,13,7,2,0
+18784,J. Maddison,James Daniel,Maddison,29,England,47,Tottenham,39,Premier League,Midfielder,31,1817,21,7.329032,9,7,28,17,1147,42,,31,4,12,251,133,67,33,,64,32,6,0
+18883,D. Solanke,Dominic Ayodele,Solanke-Mitchell,28,England,47,Tottenham,39,Premier League,Attacker,27,2205,25,6.862962,9,3,44,26,353,14,,18,9,1,304,117,48,17,,36,36,0,0
+18932,F. Forster,Fraser Gerard,Forster,37,England,47,Tottenham,39,Premier League,Goalkeeper,7,630,7,7.085714,0,0,,,167,,,,,,3,2,1,1,,,,0,0
+18968,Y. Bissouma,Yves,Bissouma,29,Mali,47,Tottenham,39,Premier League,Midfielder,28,1407,16,6.632142,2,0,7,4,846,6,,49,6,18,160,81,22,7,,18,28,7,0
+19235,D. Spence,Diop Tehuti,Djed-Hotep Spence,25,England,47,Tottenham,39,Premier League,Defender,25,1788,19,6.820833,1,2,7,3,975,11,,49,9,22,234,130,68,36,,23,21,3,0
+25287,K. Danso,Kevin,Danso,27,Austria,47,Tottenham,39,Premier League,Defender,10,842,9,6.940000,0,0,7,3,553,2,47,7,14,6,73,43,3,2,,13,9,0,0
+30435,D. Kulusevski,Dejan,Kulusevski,25,Sweden,47,Tottenham,39,Premier League,Midfielder,32,2390,27,6.900000,7,4,28,18,789,66,,43,5,13,367,129,109,38,,38,48,3,0
+30776,C. Romero,Cristian Gabriel,Romero,27,Argentina,47,Tottenham,39,Premier League,Defender,18,1421,18,7.027777,1,0,14,8,1209,8,60,36,3,20,147,90,3,1,,12,14,3,0
+31354,G. Vicario,Guglielmo,Vicario,29,Italy,47,Tottenham,39,Premier League,Goalkeeper,26,2160,25,7.062500,,0,,,753,,,,,1,12,12,1,1,,2,,1,0
+47519,Pedro Porro,Pedro Antonio,Porro Sauceda,26,Spain,47,Tottenham,39,Premier League,Defender,33,2622,33,7.203030,2,6,27,8,1440,57,,66,17,36,248,125,38,14,,33,25,5,0
+129711,B. Johnson,Brennan Price,Johnson,24,Wales,47,Tottenham,39,Premier League,Attacker,33,2178,24,7.072727,11,3,43,20,570,19,,39,3,4,193,91,41,19,,26,27,5,0
+152849,M. van de Ven,Micky,van de Ven,24,Netherlands,47,Tottenham,39,Premier League,Defender,19,1018,16,6.753846,,2,5,2,793,2,55,10,8,10,87,42,8,4,,9,10,4,0
+156428,B. Austin,Brandon Anthony,Austin,26,England,47,Tottenham,39,Premier League,Goalkeeper,1,90,1,7.300000,0,0,,,27,,,,,,4,4,,,,2,,0,0
+162498,R. Drăgușin,Radu,Matei Drăgușin,23,Romania,47,Tottenham,39,Premier League,Defender,16,1253,14,6.656250,0,0,5,1,836,4,44,10,16,15,89,53,,,,10,6,1,0
+204039,D. Udogie,Iyenoma Destiny,Udogie,23,Italy,47,Tottenham,39,Premier League,Defender,25,1933,24,6.980000,0,1,2,1,953,16,,75,6,22,228,138,28,12,,38,29,2,0
+237129,P. Sarr,Pape Matar,Sarr,23,Senegal,47,Tottenham,39,Premier League,Midfielder,36,1915,22,6.844444,3,2,27,13,996,16,,49,10,30,257,129,28,11,,35,34,6,0
+265826,A. Kinský,Antonín,Kinský,22,Czechia,47,Tottenham,39,Premier League,Goalkeeper,6,540,6,7.450000,0,0,,,179,1,,3,,,5,5,,,,,,0,0
+270510,M. Tel,Mathys Henri,Tel,20,France,47,Tottenham,39,Premier League,Attacker,13,913,11,6.923076,2,1,14,9,223,14,,16,1,2,126,51,46,15,,16,14,2,0
+311817,A. Dorrington,Alfie,Dorrington,20,England,47,Tottenham,39,Premier League,Defender,1,13,0,6.700000,0,0,,,16,,,,,,,,,,,,,0,0
+328089,A. Gray,Archie James Francis,Gray,19,England,47,Tottenham,39,Premier League,Midfielder,28,1746,19,6.532142,0,0,1,1,1079,3,,16,11,19,99,45,12,7,,11,17,1,0
+336564,W. Odobert,Wilson Serge Eric,Odobert,21,France,47,Tottenham,39,Premier League,Attacker,16,849,12,6.546666,1,0,8,4,245,6,,14,,4,82,33,29,12,,3,2,0,0
+347316,L. Bergvall,Lucas Erik Holger,Bergvall,19,Sweden,47,Tottenham,39,Premier League,Midfielder,27,1202,11,6.726923,0,1,7,2,688,12,,39,8,23,166,86,41,21,,17,20,3,0
+138,J. Todibo,Jean-Clair Dimitri Roger,Todibo,26,France,48,West Ham,39,Premier League,Defender,27,1855,22,6.674074,,0,5,,1071,2,,47,13,26,160,90,16,9,,6,16,3,0
+253,A. Areola,Alphonse Francis,Areola,32,France,48,West Ham,39,Premier League,Goalkeeper,26,2260,25,6.907692,0,0,,,865,,,2,,,5,4,,,,,,0,0
+930,Carlos Soler,Carlos,Soler Barragán,28,Spain,48,West Ham,39,Premier League,Midfielder,31,1403,14,6.619354,1,1,17,9,629,17,,15,6,8,129,52,17,8,,19,26,6,0
+1231,V. Coufal,Vladimír,Coufal,33,Czechia,48,West Ham,39,Premier League,Defender,22,1062,11,6.627272,0,0,5,2,473,8,,22,11,8,130,66,12,5,,16,22,5,0
+1243,T. Souček,Tomáš,Souček,30,Czechia,48,West Ham,39,Premier League,Midfielder,35,2572,30,7.014285,9,1,45,18,948,15,,46,21,20,334,176,12,6,,25,47,8,0
+1445,K. Mavropanos,Konstantinos,Mavropanos,28,Greece,48,West Ham,39,Premier League,Defender,33,2038,21,6.765625,0,0,15,5,1241,5,,35,18,40,174,117,14,9,,16,17,5,0
+1646,Lucas Paquetá,Lucas,Tolentino Coelho de Lima,28,Brazil,48,West Ham,39,Premier League,Midfielder,33,2384,27,6.890909,4,0,27,6,1408,36,,66,4,18,407,197,42,21,,62,53,10,0
+2284,Emerson,Emerson,Palmieri dos Santos,31,Italy,48,West Ham,39,Premier League,Defender,35,2132,31,6.703225,2,1,12,7,868,16,,60,8,21,191,101,27,10,,13,25,5,0
+2476,G. Rodríguez,Guido,Rodríguez,31,Argentina,48,West Ham,39,Premier League,Midfielder,36,1172,27,6.740000,,1,5,1,563,4,,36,9,13,110,62,4,3,,12,18,6,0
+2869,E. Álvarez,Edson Omar,Álvarez Velázquez,28,Mexico,48,West Ham,39,Premier League,Midfielder,28,1783,25,6.760714,,1,6,1,986,12,,50,8,18,224,112,28,14,,18,42,9,1
+2938,J. Ward-Prowse,James Michael Edward,Ward-Prowse,31,England,48,West Ham,39,Premier League,Midfielder,1,16,0,6.588888,0,1,1,1,162,5,,4,2,5,23,9,,,,2,7,0,0
+2997,Ł. Fabiański,Łukasz Marek,Fabiański,40,Poland,48,West Ham,39,Premier League,Goalkeeper,14,1160,13,7.028571,0,0,,,435,,,1,,,12,8,3,3,,1,2,2,0
+15911,M. Kudus,Mohammed,Kudus,25,Ghana,48,West Ham,39,Premier League,Midfielder,32,2604,31,6.846875,5,3,46,22,769,31,,38,1,4,485,204,189,91,,64,39,2,1
+18744,M. Kilman,Maximilian William,Kilman,28,England,48,West Ham,39,Premier League,Defender,38,3349,38,6.960526,0,1,9,3,1948,16,44,39,40,36,270,181,18,16,,13,23,5,0
+18813,A. Cresswell,Aaron William,Cresswell,36,England,48,West Ham,39,Premier League,Defender,18,822,10,6.943750,0,0,4,,521,9,,11,4,8,35,21,2,1,,2,4,3,0
+18819,M. Antonio,Michail Gregory,Antonio,35,Jamaica,48,West Ham,39,Premier League,Attacker,14,844,11,6.564285,1,1,12,4,153,9,,2,,,101,36,23,9,,7,12,1,0
+18846,A. Wan-Bissaka,Aaron,Wan-Bissaka,28,England,48,West Ham,39,Premier League,Defender,36,3155,35,7.169444,2,5,13,5,1503,33,,70,11,65,314,183,106,64,,27,25,1,0
+18955,D. Ings,Daniel William John,Ings,33,England,48,West Ham,39,Premier League,Attacker,15,271,1,6.740000,1,2,10,5,89,6,,4,,1,38,18,6,4,,2,,0,0
+19428,J. Bowen,Jarrod,Bowen,29,England,48,West Ham,39,Premier League,Attacker,34,2979,34,7.197058,13,8,59,37,700,52,,41,4,16,389,148,120,44,,51,20,1,0
+25391,N. Füllkrug,Niclas,Füllkrug,32,Germany,48,West Ham,39,Premier League,Attacker,18,785,6,6.838888,3,2,14,7,196,14,,4,,1,137,50,7,1,,6,21,2,0
+37724,C. Summerville,Crysencio Jilbert Sylverio Cir,Summerville,24,Netherlands,48,West Ham,39,Premier League,Attacker,19,779,7,6.757894,1,1,8,5,231,17,,13,4,,111,53,31,13,,23,9,2,0
+68466,A. Irving,Andrew,Irving,25,Scotland,48,West Ham,39,Premier League,Midfielder,10,160,1,6.725000,0,0,3,2,120,1,,7,1,1,24,10,1,1,,1,6,2,0
+129643,E. Ferguson,Evan Joe,Ferguson,21,Republic of Ireland,48,West Ham,39,Premier League,Attacker,8,150,1,6.584615,0,0,5,2,57,3,,4,1,,32,10,2,1,,1,3,0,0
+288116,K. Casey,Kaelan,Casey,21,England,48,West Ham,39,Premier League,Defender,8,1,5,,,0,,,,,,,,,1,1,,,,,,0,0
+288118,L. Orford,Lewis,Orford,19,England,48,West Ham,39,Premier League,Midfielder,5,47,3,6.800000,,0,1,,37,2,,,,1,1,,,,,,,0,0
+327730,O. Scarles,Oliver,Scarles,20,England,48,West Ham,39,Premier League,Defender,15,662,7,6.700000,0,0,1,,322,2,,21,2,11,59,32,7,2,,3,5,1,0
+404574,Luis Guilherme,Luis Guilherme,Lira dos Santos,20,Brazil,48,West Ham,39,Premier League,Forward,12,176,4,6.608333,,0,2,1,58,3,,1,,3,25,14,11,7,,4,,0,0
+18,J. Sancho,Jadon Malik,Sancho,25,England,49,Chelsea,39,Premier League,Attacker,31,1764,19,6.964516,3,4,12,8,768,38,,13,,2,160,75,86,45,,11,6,2,0
+95,B. Badiashile,Benoît Ntambue,Badiashile Mukinayi Baya,24,France,49,Chelsea,39,Premier League,Defender,22,333,13,6.920000,,0,,,303,,54,9,2,6,29,19,1,,,2,6,0,0
+269,C. Nkunku,Christopher Alan,Nkunku,28,France,49,Chelsea,39,Premier League,Attacker,27,912,9,6.825925,3,2,20,12,330,14,,12,2,7,119,49,24,10,,11,16,2,0
+583,João Félix,João,Félix Sequeira,26,Portugal,49,Chelsea,39,Premier League,Forward,12,382,7,6.791666,1,1,16,6,195,6,,8,,3,71,39,24,10,,17,6,2,0
+1864,Pedro Neto,Pedro,Lomba Neto,26,Portugal,49,Chelsea,39,Premier League,Forward,35,2281,30,7.014285,4,6,33,17,731,47,,22,2,9,238,99,79,33,,33,21,8,0
+2933,B. Chilwell,Benjamin James,Chilwell,29,England,49,Chelsea,39,Premier League,Defender,12,262,6,6.912500,1,0,5,3,94,5,,7,2,6,30,15,5,2,,3,2,1,0
+5996,E. Fernández,Enzo Jeremías,Fernández,25,Argentina,49,Chelsea,39,Premier League,Midfielder,36,2946,34,7.322222,6,7,39,20,1778,80,41,65,7,13,340,159,47,26,,54,52,8,0
+10329,João Pedro,João Pedro,Junqueira de Jesus,24,Brazil,49,Chelsea,39,Premier League,Attacker,27,1953,24,7.170370,10,6,33,20,626,30,,16,,9,293,132,76,29,,46,26,4,1
+18959,Robert Sánchez,Robert,Lynch Sánchez,28,Spain,49,Chelsea,39,Premier League,Goalkeeper,32,2880,32,7.046875,0,0,,,1050,2,,,,2,19,16,,,,4,2,5,0
+19145,T. Adarabioyo,Abdul-Nasir Oluwatosin,Oluwadoyinsolami Adarabioyo,28,England,49,Chelsea,39,Premier League,Defender,22,1403,15,6.950000,1,1,9,2,1174,2,51,17,7,11,113,72,5,4,,9,8,4,0
+19545,R. James,Reece Lewis,James,26,England,49,Chelsea,39,Premier League,Defender,19,1063,12,6.952631,1,1,8,3,743,11,,10,6,13,89,51,13,7,,11,8,1,0
+21998,A. Disasi,Axel Wilson Arthur,Disasi Mhakinis Belho,27,France,49,Chelsea,39,Premier League,Defender,6,365,4,6.714285,1,0,2,,266,3,,9,1,5,48,28,15,9,,2,3,1,0
+22094,W. Fofana,Wesley Tidjan,Fofana,25,France,49,Chelsea,39,Premier League,Defender,15,1176,14,6.857142,,0,3,,781,6,50,13,9,14,116,64,11,8,,16,24,7,0
+47380,Marc Cucurella,Marc,Cucurella Saseta,27,Spain,49,Chelsea,39,Premier League,Defender,36,2990,33,7.033333,5,1,19,12,1632,19,40,67,16,28,278,141,13,4,,38,37,9,0
+63577,M. Mudryk,Mykhailo,Mudryk,24,Ukraine,49,Chelsea,39,Premier League,Midfielder,12,158,5,6.657142,,0,1,1,35,2,,2,1,,26,9,8,3,,2,2,0,0
+116117,M. Caicedo,Moisés Isaac,Caicedo Corozo,24,Ecuador,49,Chelsea,39,Premier League,Midfielder,38,3356,38,7.236842,1,2,11,3,2153,30,51,114,10,48,401,236,51,29,,58,70,11,0
+136723,N. Madueke,Chukwunonso Tristan,Madueke,23,England,49,Chelsea,39,Premier League,Attacker,32,2049,27,7.053125,7,3,57,32,599,35,,25,,10,238,106,91,45,,25,22,3,0
+148099,K. Dewsbury-Hall,Kiernan Frank,Dewsbury-Hall,27,England,49,Chelsea,39,Premier League,Midfielder,13,256,2,6.700000,0,1,,,149,3,,8,,2,27,16,4,2,,6,4,0,0
+152953,L. Colwill,Levi Lemar,Samuels Colwill,22,England,49,Chelsea,39,Premier League,Defender,35,3150,35,7.002857,2,1,14,4,2593,13,66,47,25,33,275,155,11,6,,21,45,9,0
+152982,C. Palmer,Cole Jermaine,Palmer,23,England,49,Chelsea,39,Premier League,Midfielder,37,3199,36,7.656756,15,8,86,51,1311,91,,34,1,11,268,147,98,51,,60,15,7,0
+161907,M. Gusto,Malo,Gusto,22,France,49,Chelsea,39,Premier League,Defender,32,1855,19,6.840625,0,1,16,5,1211,22,,45,8,25,164,78,15,4,,20,20,4,0
+282125,R. Lavia,Roméo,Lavia,21,Belgium,49,Chelsea,39,Premier League,Midfielder,16,803,11,6.612500,0,1,,,422,7,,22,,16,97,51,16,10,,7,16,4,0
+283058,N. Jackson,Nicolas,Jackson,24,Senegal,49,Chelsea,39,Premier League,Attacker,31,2238,31,6.926666,10,5,64,35,390,28,,22,2,3,236,90,51,18,,29,35,7,1
+284324,A. Garnacho,Alejandro,Garnacho Ferreyra,21,Argentina,49,Chelsea,39,Premier League,Attacker,36,2195,29,6.797222,6,2,55,30,750,37,,30,,13,265,102,81,26,,43,12,3,0
+286616,F. Jörgensen,Filip,Jörgensen,23,Denmark,49,Chelsea,39,Premier League,Goalkeeper,6,540,6,6.766666,0,0,,,170,,,,,,2,1,,,,1,1,0,0
+5,M. Akanji,Manuel Obafemi,Akanji,30,Switzerland,50,Manchester City,39,Premier League,Defender,28,2020,26,7.000000,,0,10,2,1721,9,64,19,8,9,121,60,2,2,,9,17,3,0
+44,Rodri,Rodrigo,Hernández Cascante,29,Spain,50,Manchester City,39,Premier League,Midfielder,5,80,3,6.833333,,0,,,68,1,,2,,1,6,5,,,,2,1,0,0
+567,Rúben Dias,Rúben,dos Santos Gato Alves Dias,29,Portugal,50,Manchester City,39,Premier League,Defender,27,2273,25,7.155555,,0,16,7,2294,5,79,17,20,20,118,64,3,2,,8,12,4,0
+617,Ederson,Ederson,Santana de Moraes,32,Brazil,50,Manchester City,39,Premier League,Goalkeeper,26,2321,26,7.042307,,4,,,810,4,,,,1,9,5,,,,,1,4,0
+626,J. Stones,John,Stones,31,England,50,Manchester City,39,Premier League,Defender,15,545,9,6.870000,2,0,2,2,402,2,,6,3,4,26,18,2,2,,2,2,1,0
+627,K. Walker,Kyle Andrew,Walker,35,England,50,Manchester City,39,Premier League,Defender,17,973,13,6.713333,,0,3,2,731,7,43,17,4,3,64,35,5,3,,5,6,3,0
+629,K. De Bruyne,Kevin,De Bruyne,34,Belgium,50,Manchester City,39,Premier League,Midfielder,33,1715,27,7.321428,4,7,40,18,1018,58,,16,,7,146,51,28,12,,18,17,2,0
+631,P. Foden,Philip Walter,Foden,25,England,50,Manchester City,39,Premier League,Midfielder,33,1786,26,7.239285,7,2,36,16,852,43,,13,1,9,143,64,37,14,,34,5,2,0
+633,İ. Gündoğan,İlkay,Gündoğan,35,Germany,50,Manchester City,39,Premier League,Midfielder,33,2242,28,7.115625,1,6,19,7,1624,43,46,25,,14,164,83,33,17,,27,15,1,0
+636,Bernardo Silva,Bernardo,Mota Veiga de Carvalho e Silva,32,Portugal,50,Manchester City,39,Premier League,Midfielder,33,2671,31,7.233333,4,4,21,12,1669,53,44,55,7,23,245,119,53,27,,32,27,7,0
+1100,E. Haaland,Erling,Braut Haaland,25,Norway,50,Manchester City,39,Premier League,Attacker,32,2741,31,7.254838,22,3,92,60,372,29,,12,1,5,218,94,33,13,,13,24,2,0
+1422,J. Doku,Jérémy Baffour,Doku,23,Belgium,50,Manchester City,39,Premier League,Attacker,33,1532,26,7.321428,3,6,16,9,699,32,,31,1,3,313,169,166,105,,33,10,1,0
+2291,M. Kovačić,Mateo,Kovačić,31,Croatia,50,Manchester City,39,Premier League,Midfielder,33,2207,27,7.316129,6,2,26,12,1875,33,56,69,,23,233,127,33,22,,26,24,5,1
+18861,N. Aké,Nathan Benjamin,Aké,30,Netherlands,50,Manchester City,39,Premier League,Defender,19,688,15,6.830000,,0,2,,532,1,50,9,2,3,39,22,1,1,,,2,0,0
+19187,J. Grealish,Jack Peter,Grealish,30,England,50,Manchester City,39,Premier League,Midfielder,32,735,20,7.000000,1,1,9,5,411,24,,9,2,2,88,48,22,13,,25,5,3,0
+21138,R. Aït-Nouri,Rayan,Aït-Nouri,24,Algeria,50,Manchester City,39,Premier League,Defender,37,3128,37,7.008108,4,7,21,13,1377,47,,89,6,27,408,220,119,63,,46,30,7,1
+25004,S. Ortega,Stefan,Ortega Moreno,33,Germany,50,Manchester City,39,Premier League,Goalkeeper,38,1099,24,6.846153,,0,,,402,,,,,,6,4,,,,2,1,1,0
+41621,Matheus Nunes,Matheus Luiz,Nunes,27,Portugal,50,Manchester City,39,Premier League,Midfielder,26,1682,21,7.204761,1,6,7,4,1075,23,,35,4,15,184,87,32,18,,20,30,4,0
+81573,Omar Marmoush,Omar Khaled Mohamed Abd Elsala,Marmoush,26,Egypt,50,Manchester City,39,Premier League,Attacker,16,1190,16,7.306250,7,0,34,17,286,15,,13,1,6,132,57,40,19,,20,15,0,0
+129033,J. Gvardiol,Joško,Gvardiol,23,Croatia,50,Manchester City,39,Premier League,Defender,38,3279,37,7.356756,5,0,30,12,2524,26,62,59,20,44,269,164,39,25,,27,16,2,0
+158697,J. McAtee,James John,McAtee,23,England,50,Manchester City,39,Premier League,Midfielder,15,340,3,6.669230,3,0,12,4,117,3,,4,,2,31,11,6,2,,3,6,1,0
+161933,Nico González,Nicolás,González Iglesias,24,Spain,50,Manchester City,39,Premier League,Midfielder,11,763,9,6.940000,1,0,7,2,621,1,57,16,,8,82,38,4,1,,5,13,3,0
+266657,Sávio,Sávio,Moreira de Oliveira,21,Brazil,50,Manchester City,39,Premier League,Attacker,36,1770,29,7.333333,1,8,37,21,763,46,,23,2,6,209,104,92,52,,28,17,3,0
+278133,Oscar Bobb,Oscar,Bobb,22,Norway,50,Manchester City,39,Premier League,Midfielder,3,13,0,6.750000,0,0,,,15,1,,,,,3,3,2,2,,1,,0,0
+284230,R. Lewis,Rico Henry Mark,Lewis,21,England,50,Manchester City,39,Premier League,Defender,36,1897,30,6.911111,1,2,8,2,1201,7,,30,7,13,143,79,20,9,,34,12,5,1
+284409,D. Mubama,Divin Saku,Mubama,21,England,50,Manchester City,39,Premier League,Attacker,1,27,0,6.200000,0,0,,,3,,,,,,2,,,,,,,0,0
+307123,N. O&apos;Reilly,Nico,O'Reilly,20,England,50,Manchester City,39,Premier League,Midfielder,9,527,6,6.955555,2,0,6,3,306,4,,9,1,4,68,28,15,9,,4,6,0,0
+360114,A. Khusanov,Abduqodir,Khusanov,21,Uzbekistan,50,Manchester City,39,Premier League,Defender,11,504,9,6.733333,,0,,,391,2,59,5,4,3,25,14,2,,,3,3,1,0
+404656,Jahmai Simpson-Pusey,Jahmai,Simpson-Pusey,20,England,50,Manchester City,39,Premier League,Defender,2,95,1,6.200000,0,0,,,114,,53,1,1,,7,3,,,,1,,1,0
+296,J. Milner,James Philip,Milner,39,England,51,Brighton,39,Premier League,Midfielder,4,173,4,6.933333,,0,2,1,66,4,,5,2,2,11,7,1,1,,1,3,1,0
+537,J. Veltman,Joël Ivo,Veltman,33,Netherlands,51,Brighton,39,Premier League,Defender,24,1699,21,6.880952,,0,4,1,774,6,,43,7,19,185,112,9,4,,44,27,5,0
+1361,F. Kadıoğlu,Ferdi Erenay,Kadıoğlu,26,Türkiye,51,Brighton,39,Premier League,Defender,6,388,5,6.783333,1,0,2,1,150,5,,10,2,8,39,19,6,3,,3,5,1,0
+1469,D. Welbeck,Daniel Nii,Tackie Mensah Welbeck,35,England,51,Brighton,39,Premier League,Attacker,30,2122,27,6.986666,10,4,42,24,485,23,,26,4,5,181,79,34,13,,23,11,5,0
+7600,Igor,Igor Júlio,dos Santos de Paulo,27,Brazil,51,Brighton,39,Premier League,Defender,23,967,15,6.700000,,0,1,,713,2,50,5,14,4,46,24,6,5,,6,9,4,0
+10329,João Pedro,João Pedro,Junqueira de Jesus,24,Brazil,51,Brighton,39,Premier League,Attacker,27,1955,23,7.170370,10,6,33,20,626,30,,16,,9,293,132,76,29,,46,26,4,1
+18960,J. Steele,Jason Sean,Steele,35,England,51,Brighton,39,Premier League,Goalkeeper,26,180,15,7.250000,,0,,,105,,47,,,,3,2,,,,1,,0,0
+18963,L. Dunk,Lewis Carl,Dunk,34,England,51,Brighton,39,Premier League,Defender,25,2083,23,6.828000,0,0,9,3,1934,6,70,17,18,13,129,79,1,,,11,7,5,0
+18973,S. March,Solomon Benjamin,March,31,England,51,Brighton,39,Premier League,Midfielder,13,168,7,6.628571,,0,1,,69,3,,6,,2,21,10,4,1,,2,2,2,0
+19030,M. O&apos;Riley,Matthew Sean,O'Riley,25,Denmark,51,Brighton,39,Premier League,Midfielder,21,938,11,6.885714,2,2,15,7,360,21,,16,3,13,83,42,12,8,,13,16,1,0
+19265,A. Webster,Adam Harry,Webster,30,England,51,Brighton,39,Premier League,Defender,21,888,15,6.969230,,0,3,1,721,3,45,10,9,20,61,37,3,1,,2,7,1,0
+38695,J. van Hecke,Jan Paul,van Hecke,25,Netherlands,51,Brighton,39,Premier League,Defender,34,2961,33,7.085294,1,1,13,5,2265,16,58,45,22,24,260,156,9,5,,24,25,7,0
+40911,J. Moder,Jakub Piotr,Moder,26,Poland,51,Brighton,39,Premier League,Midfielder,4,7,0,6.633333,0,0,,,21,3,,1,,,4,1,,,,,,0,0
+46731,P. Estupiñán,Pervis Josué,Estupiñán Tenorio,27,Ecuador,51,Brighton,39,Premier League,Defender,30,2402,26,7.016666,1,1,20,9,1308,26,,65,5,37,269,150,32,19,,20,36,5,0
+70747,J. Enciso,Julio César,Enciso Espínola,21,Paraguay,51,Brighton,39,Premier League,Midfielder,12,286,2,6.827272,0,0,17,11,130,5,,,,,50,23,18,10,,7,3,0,0
+90590,G. Rutter,Georginio,Rutter,23,France,51,Brighton,39,Premier League,Attacker,28,1672,24,6.807142,5,3,30,12,344,19,,39,3,10,309,136,61,27,,45,34,2,0
+92993,M. Wieffer,Mats,Wieffer,26,Netherlands,51,Brighton,39,Premier League,Midfielder,28,1045,17,6.850000,1,3,8,4,647,15,,58,2,17,186,107,14,7,,10,23,6,0
+106835,K. Mitoma,Kaoru,Mitoma,28,Japan,51,Brighton,39,Premier League,Midfielder,36,2610,28,6.983333,10,4,45,27,890,37,,45,3,14,338,147,126,52,,24,40,1,0
+129058,B. Verbruggen,Bart,Verbruggen,23,Netherlands,51,Brighton,39,Premier League,Goalkeeper,36,3240,36,6.875000,,1,,,1187,1,,,,,18,14,2,2,,2,,5,0
+129643,E. Ferguson,Evan Joe,Ferguson,21,Republic of Ireland,51,Brighton,39,Premier League,Attacker,15,261,8,6.584615,1,0,5,2,57,3,,4,1,,32,10,2,1,,1,3,0,0
+130423,B. Gilmour,Billy Clifford,Gilmour,24,Scotland,51,Brighton,39,Premier League,Midfielder,2,97,2,7.000000,,0,,,66,,,3,,,11,7,2,1,,3,2,0,0
+138815,T. Lamptey,Tariq Kwame,Nii-Lante Lamptey,25,Ghana,51,Brighton,39,Premier League,Defender,15,861,10,6.580000,2,2,6,2,324,5,,17,7,7,104,38,28,10,,10,15,0,0
+161663,E. Cashin,Eiran Joe,Cashin,24,Republic of Ireland,51,Brighton,39,Premier League,Defender,11,19,6,6.300000,,0,,,27,,,,,,5,2,1,,,,,0,0
+202086,J. Sarmiento,Jeremy Leonel,Sarmiento Morante,23,Ecuador,51,Brighton,39,Premier League,Midfielder,1,8,1,6.200000,,0,,,6,,,,,,,,,,,,,0,0
+265820,Y. Ayari,Yasin,Abbas Ayari,22,Sweden,51,Brighton,39,Premier League,Midfielder,34,1969,22,6.902941,2,1,22,8,900,30,,59,6,20,243,119,36,18,,26,37,4,0
+278370,D. Gómez,Diego Alexander,Gómez Amarilla,22,Paraguay,51,Brighton,39,Premier League,Midfielder,17,512,10,6.828571,1,0,7,3,289,9,,21,,8,77,40,12,6,,3,8,0,0
+301771,S. Adingra,Simon,Adingra,23,Côte d'Ivoire,51,Brighton,39,Premier League,Attacker,29,1090,12,6.664285,2,2,19,8,332,16,,23,,8,126,55,48,21,,4,13,0,0
+305730,J. Hinshelwood,Jack Luca,Hinshelwood,20,England,51,Brighton,39,Premier League,Midfielder,26,1854,23,6.900000,5,2,14,10,943,17,,27,3,16,118,58,10,2,,9,18,5,0
+328225,B. Gruda,Brajan,Gruda,21,Germany,51,Brighton,39,Premier League,Midfielder,28,698,19,6.845000,1,4,10,5,212,23,,16,,2,96,44,25,13,,12,7,0,0
+1135,O. Édouard,Odsonne,Édouard,27,France,52,Crystal Palace,39,Premier League,Attacker,2,115,1,6.700000,0,0,3,1,27,1,,1,,,14,2,1,,,,4,0,0
+2218,I. Sarr,Ismaïla,Sarr,27,Senegal,52,Crystal Palace,39,Premier League,Attacker,38,2719,35,7.060526,8,6,49,29,678,46,,22,8,7,289,129,52,17,,55,14,4,0
+2490,J. Lerma,Jefferson Andrés,Lerma Solís,31,Colombia,52,Crystal Palace,39,Premier League,Midfielder,34,2290,29,6.827272,,1,19,8,1052,10,,35,18,42,232,120,10,6,,39,35,9,0
+2601,D. Kamada,Daichi,Kamada,29,Japan,52,Crystal Palace,39,Premier League,Midfielder,35,1593,22,6.750000,,0,11,4,716,20,,47,5,18,175,79,16,7,,21,28,4,1
+2729,J. Andersen,Joachim Christian,Andersen,29,Denmark,52,Crystal Palace,39,Premier League,Defender,1,90,1,6.300000,0,0,1,1,82,,61,1,,,7,3,,,,,2,1,0
+2933,B. Chilwell,Benjamin James,Chilwell,29,England,52,Crystal Palace,39,Premier League,Defender,8,253,1,6.912500,1,0,5,3,94,5,,7,2,6,30,15,5,2,,3,2,1,0
+3339,C. Doucouré,Cheick Oumar,Doucouré,25,Mali,52,Crystal Palace,39,Premier League,Midfielder,17,462,11,6.630769,,0,2,,203,1,,16,,11,57,30,4,2,,7,7,1,0
+3428,J. Ayew,Jordan Pierre,Ayew,34,Ghana,52,Crystal Palace,39,Premier League,Attacker,1,20,0,6.300000,0,0,1,,9,1,,1,,,5,2,,,,,1,1,0
+13736,D. Muñoz,Daniel,Muñoz Mejía,29,Colombia,52,Crystal Palace,39,Premier League,Defender,37,3233,37,7.086486,4,5,31,18,1135,47,,123,6,44,446,220,54,21,,19,56,10,0
+18806,W. Hughes,William James,Hughes,30,England,52,Crystal Palace,39,Premier League,Midfielder,33,2118,27,6.775000,,3,9,1,890,33,,66,14,22,274,121,12,5,,31,65,11,0
+18843,J. Schlupp,Jeffrey,Schlupp,33,Ghana,52,Crystal Palace,39,Premier League,Midfielder,12,92,0,6.555555,0,0,3,2,43,3,,2,,,14,6,1,1,,,1,0,0
+18847,J. Ward,Joel Edward Philip,Ward,36,England,52,Crystal Palace,39,Premier League,Defender,2,71,1,6.100000,0,0,,,24,1,,2,,,8,3,1,,,,4,1,0
+18862,N. Clyne,Nathaniel Edwin,Clyne,34,England,52,Crystal Palace,39,Premier League,Defender,13,479,5,6.536363,0,0,2,,202,3,,12,2,3,32,15,1,,,2,2,1,0
+19088,D. Henderson,Dean Bradley,Henderson,28,England,52,Crystal Palace,39,Premier League,Goalkeeper,38,3420,38,6.944736,,0,1,,1101,3,,2,,,20,15,,,,2,,3,0
+19586,E. Eze,Eberechi Oluchi,Eze,27,England,52,Crystal Palace,39,Premier League,Midfielder,34,2603,31,7.297058,8,8,61,29,912,59,,39,,11,340,163,129,67,,51,13,1,0
+19720,T. Chalobah,Trevoh Thomas,Chalobah,26,England,52,Crystal Palace,39,Premier League,Defender,12,1063,12,6.923076,3,1,7,3,666,4,46,11,3,10,68,43,3,2,,7,9,1,0
+20995,M. Lacroix,Maxence Guy,Lacroix,25,France,52,Crystal Palace,39,Premier League,Defender,35,3118,35,7.022857,1,1,25,6,1463,8,,68,21,54,262,156,12,8,,19,34,5,0
+25927,J. Mateta,Jean-Philippe,Mateta,28,France,52,Crystal Palace,39,Premier League,Attacker,37,2658,33,6.927027,14,2,53,33,422,29,,18,4,2,343,129,41,19,,29,27,2,0
+67971,M. Guéhi,Addji Keaninkin Marc-Israel,Guéhi,25,England,52,Crystal Palace,39,Premier League,Defender,34,3060,34,7.091176,3,2,9,7,1731,16,42,62,23,28,285,169,14,12,,27,24,9,1
+126949,C. Richards,Christopher Jeffrey,Richards,25,USA,52,Crystal Palace,39,Premier League,Defender,29,1925,25,6.847826,1,0,9,6,835,2,,47,14,18,179,100,6,1,,5,11,4,1
+182201,T. Mitchell,Tyrick Kwon,Mitchell,26,England,52,Crystal Palace,39,Premier League,Defender,38,3102,37,6.916216,,5,9,3,1023,41,,90,13,19,262,151,33,16,,25,23,2,0
+278898,C. Riad,Chadi,Riad Dnanou,22,Morocco,52,Crystal Palace,39,Premier League,Defender,6,90,4,6.700000,,0,,,82,,70,5,,2,13,7,,,,,1,0,0
+286458,J. Devenny,Justin,Devenny,22,Scotland,52,Crystal Palace,39,Premier League,Midfielder,23,493,4,6.629411,1,1,7,6,186,7,,17,1,,58,21,4,2,,,8,1,0
+288102,A. Wharton,Adam James,Wharton,21,England,52,Crystal Palace,39,Premier League,Midfielder,21,1336,20,6.965000,,2,10,5,677,26,,34,2,20,138,64,10,2,,21,12,2,0
+311157,Matheus França,Matheus,França de Oliveira,21,Brazil,52,Crystal Palace,39,Premier League,Attacker,11,52,6,7.033333,1,0,6,3,14,,,2,1,1,5,3,,,,,,0,0
+367634,A. Agbinone,Asher Chris,Ofega Agbinone,20,England,52,Crystal Palace,39,Premier League,Midfielder,2,4,0,6.700000,0,0,1,,2,1,,2,,,5,2,1,,,,,0,0
+380679,C. Kporha,Caleb Billy,Mawuko Kporha,19,England,52,Crystal Palace,39,Premier League,Defender,27,19,15,6.500000,,0,,,4,,,2,,,5,2,,,,,,0,0
+1119,K. Ajer,Kristoffer,Vassbakk Ajer,27,Norway,55,Brentford,39,Premier League,Defender,26,1460,22,6.658333,,0,5,3,557,8,,27,4,11,136,67,16,7,,6,13,5,0
+15745,M. Roerslev,Mads,Roerslev Rasmussen,26,Denmark,55,Brentford,39,Premier League,Defender,19,1096,11,6.761111,0,2,5,2,443,14,,18,5,4,95,45,15,7,,10,6,2,0
+15799,F. Onyeka,Ogochukwu Frank,Onyeka,27,Nigeria,55,Brentford,39,Premier League,Midfielder,2,23,0,6.300000,0,0,,,7,,,,,,3,,,,,,2,0,0
+15908,M. Damsgaard,Mikkel,Krogh Damsgaard,25,Denmark,55,Brentford,39,Premier League,Midfielder,38,2930,34,7.210526,2,10,20,7,1368,64,,83,3,27,349,172,86,50,,27,18,2,0
+18917,B. Mee,Benjamin Thomas,Mee,36,England,55,Brentford,39,Premier League,Defender,7,179,2,6.550000,0,0,,,116,,,2,3,4,17,7,,,,,5,2,0
+19346,R. Henry,Rico Antonio,Henry,28,England,55,Brentford,39,Premier League,Defender,5,93,0,6.240000,0,0,,,35,,,2,1,1,16,5,2,,,2,2,0,0
+19495,N. Collins,Nathan Michael,Collins,24,Republic of Ireland,55,Brentford,39,Premier League,Defender,38,3420,38,7.160526,2,3,14,6,1958,10,44,40,57,35,319,195,11,6,,31,29,5,0
+19789,E. Pinnock,Ethan Rupert,Pinnock,32,Jamaica,55,Brentford,39,Premier League,Defender,31,1913,26,6.954545,2,0,10,6,1030,8,41,35,18,24,177,106,9,3,,4,8,2,0
+20589,B. Mbeumo,Bryan Tetsadong Marceau,Mbeumo,26,Cameroon,55,Brentford,39,Premier League,Attacker,38,3417,38,7.450000,20,7,65,41,1090,70,,49,3,14,385,178,99,52,,44,25,3,0
+20649,Y. Wissa,Yoane,Wissa,29,Congo DR,55,Brentford,39,Premier League,Attacker,35,2929,34,7.157142,19,4,69,43,564,29,,22,8,8,264,118,40,15,,51,34,5,0
+25073,V. Janelt,Vitaly,Janelt,27,Germany,55,Brentford,39,Premier League,Midfielder,32,2287,29,6.840625,1,3,11,4,1014,15,,38,9,27,143,75,10,3,,15,24,3,0
+26232,M. Flekken,Mark,Flekken,32,Netherlands,55,Brentford,39,Premier League,Goalkeeper,37,3276,37,7.375675,,2,,,1583,3,,4,,,18,12,1,1,,3,,1,0
+30407,C. Nørgaard,Christian,Thers Nørgaard,31,Denmark,55,Brentford,39,Premier League,Midfielder,34,2829,34,7.088235,5,4,27,16,1391,18,,79,20,49,295,163,12,7,,28,44,8,1
+36922,S. van den Berg,Sepp,van den Berg,24,Netherlands,55,Brentford,39,Premier League,Defender,31,2588,29,6.958064,0,0,18,6,1205,6,,39,38,22,260,142,7,4,,5,23,3,0
+47438,M. Jensen,Mathias,Jensen,29,Denmark,55,Brentford,39,Premier League,Midfielder,24,853,8,6.787500,0,2,5,1,403,17,,14,4,8,74,40,14,8,,10,7,2,0
+61742,H. Valdimarsson,Hákon,Rafn Valdimarsson,24,Iceland,55,Brentford,39,Premier League,Goalkeeper,2,144,1,6.650000,0,0,,,63,,,,,,1,1,,,,,,0,0
+106725,K. Lewis-Potter,Keane William,Lewis-Potter,24,England,55,Brentford,39,Premier League,Attacker,38,3102,36,6.878947,1,3,23,14,1047,26,,49,10,21,289,147,91,40,,31,18,7,0
+153066,Fábio Carvalho,Fábio Leandro,Freitas Gouveia de Carvalho,23,Portugal,55,Brentford,39,Premier League,Midfielder,19,444,3,6.664705,2,1,8,6,166,4,,13,1,3,63,27,12,2,,10,5,1,0
+162075,P. Maghoma,Edmond-Paris,Maghoma,24,England,55,Brentford,39,Premier League,Midfielder,8,111,0,6.614285,0,0,,,81,1,,2,2,1,18,10,4,3,,4,2,0,0
+178077,K. Schade,Kevin,Schade,24,Germany,55,Brentford,39,Premier League,Midfielder,38,2300,26,7.013157,11,2,43,27,448,23,,39,4,5,396,196,82,30,,38,21,3,0
+196156,Thiago,Igor Thiago,Nascimento Rodrigues,24,Brazil,55,Brentford,39,Premier League,Attacker,8,174,5,6.687500,,0,2,,54,2,,5,,2,31,18,5,3,,3,3,0,0
+263538,Y. Yarmolyuk,Yehor,Yarmolyuk,21,Ukraine,55,Brentford,39,Premier League,Midfielder,31,1441,15,6.793333,0,0,5,2,739,9,,49,9,14,169,83,24,13,,13,19,6,0
+284797,D. Ouattara,Dango Aboubacar Faissal,Ouattara,23,Burkina Faso,55,Brentford,39,Premier League,Attacker,32,2014,28,7.071875,7,4,48,20,495,35,,35,10,11,306,138,73,39,,19,16,3,0
+342022,M. Kayode,Michael Olabode,Kayode,21,Italy,55,Brentford,39,Premier League,Defender,12,527,6,6.890909,0,1,2,,173,8,,17,,7,65,38,17,9,,3,8,2,0
+350625,J. Meghoma,Jayden,Meghoma,19,England,55,Brentford,39,Premier League,Defender,1,4,0,6.200000,0,0,,,3,,,,,,,,,,,,,0,0
+356237,Kim Ji-Soo,Ji-Soo,Kim,21,Korea Republic,55,Brentford,39,Premier League,Defender,3,27,0,6.200000,0,0,,,28,,,,,,2,,,,,,1,0,0
+382925,R. Trevitt,Ryan,Trevitt,22,England,55,Brentford,39,Premier League,Midfielder,1,3,0,6.700000,0,0,,,6,,,1,,,1,1,,,,,,0,0
+427736,Gustavo Gomes,Gustavo,Nunes Fernandes Gomes,20,Brazil,55,Brentford,39,Premier League,Attacker,7,11,4,6.900000,,0,,,1,,,3,,,3,3,,,,,,0,0
+430734,Y. Konak,Yunus Emre,Konak,20,Türkiye,55,Brentford,39,Premier League,Midfielder,10,72,5,6.360000,,0,1,,35,,,4,,,28,10,2,,,1,3,0,0
+616,A. Murić,Arijanet,Murić,27,Kosovo,57,Ipswich,39,Premier League,Goalkeeper,18,1620,18,7.094444,,0,,,535,,,,,,19,15,,,,4,,1,0
+2752,M. Luongo,Massimo Corey,Luongo,33,Australia,57,Ipswich,39,Premier League,Midfielder,11,195,2,6.555555,0,0,,,64,,,9,2,2,20,13,,,,2,1,0,0
+8794,G. Hirst,George David Eric,Hirst,26,England,57,Ipswich,39,Premier League,Attacker,26,649,5,6.580000,3,1,14,7,118,4,,3,1,2,107,49,5,2,,12,13,3,0
+15797,J. Cajuste,Jens-Lys Michel,Cajuste,26,Sweden,57,Ipswich,39,Premier League,Midfielder,30,1978,25,6.717241,1,1,8,1,730,13,,44,10,28,213,104,46,27,,22,24,2,0
+17579,S. Szmodics,Samuel Joseph,Szmodics,30,Republic of Ireland,57,Ipswich,39,Premier League,Attacker,22,1001,15,6.638888,4,0,20,12,187,5,,16,2,6,95,34,10,4,,8,9,2,0
+17597,D. O&apos;Shea,Dara Joseph,O'Shea,26,Republic of Ireland,57,Ipswich,39,Premier League,Defender,36,3123,35,6.988571,,2,13,2,1500,3,,49,50,33,310,189,2,1,,26,21,6,0
+17714,L. Woolfenden,Luke Matthew,Woolfenden,27,England,57,Ipswich,39,Premier League,Defender,15,1185,12,6.733333,0,0,1,,559,,,9,14,19,49,26,,,,2,5,2,0
+17739,G. Edmundson,Samuel George Alan,Edmundson,28,England,57,Ipswich,39,Premier League,Defender,1,1,0,,0,0,,,2,,,,,,,,,,,,,0,0
+18397,J. Taylor,Jack Henry Philip,Taylor,27,Republic of Ireland,57,Ipswich,39,Premier League,Midfielder,33,846,18,6.586666,1,0,13,4,414,5,,20,3,9,85,36,8,4,,5,16,4,0
+18823,B. Johnson,Benjamin Anthony,Johnson,25,England,57,Ipswich,39,Premier League,Defender,32,1366,21,6.460869,1,2,5,3,320,12,,38,5,13,167,71,22,8,,6,27,5,1
+19073,B. Godfrey,Benjamin Matthew,Godfrey,27,England,57,Ipswich,39,Premier League,Defender,11,159,7,6.100000,,0,,,50,,,1,1,2,6,4,,,,,1,1,0
+19119,L. Davis,Leif,Davis,26,England,57,Ipswich,39,Premier League,Defender,33,2746,32,6.787878,1,2,11,2,949,61,,45,8,25,225,123,31,13,,31,27,5,1
+19130,K. Phillips,Kalvin Mark,Phillips,30,England,57,Ipswich,39,Premier League,Midfielder,19,1239,14,6.615789,0,0,5,2,528,5,,35,6,19,157,67,11,5,,20,28,5,0
+19136,J. Clarke,Jack Raymond,Clarke,25,England,57,Ipswich,39,Premier League,Attacker,35,1186,23,6.731250,,4,9,2,370,28,,32,,7,175,87,43,25,,23,15,2,0
+19152,C. Townsend,Conor Stephen,Townsend,32,England,57,Ipswich,39,Premier League,Defender,32,342,17,7.000000,,1,,,94,4,,11,6,4,32,21,,,,4,2,1,0
+19182,A. Tuanzebe,Axel,Tuanzebe,28,England,57,Ipswich,39,Premier League,Defender,22,1717,21,6.523809,,1,2,,671,5,,31,10,22,120,69,10,4,,12,17,5,1
+19365,C. Ogbene,Chiedozie,Ogbene,28,Republic of Ireland,57,Ipswich,39,Premier League,Attacker,7,240,6,6.520000,,0,,,39,2,,7,,1,31,16,4,1,,7,2,0,0
+19541,C. Walton,Christian Timothy,Walton,30,England,57,Ipswich,39,Premier League,Goalkeeper,7,630,7,6.657142,0,0,,,220,1,,,,,4,3,,,,1,,0,0
+19558,Sam Morsy,Samy Sayed,Morsy,34,Egypt,57,Ipswich,39,Premier League,Midfielder,33,2755,31,6.754545,1,1,9,3,1421,24,,68,13,29,256,130,26,17,,27,48,10,0
+20007,C. Chaplin,Conor Mark,Chaplin,28,England,57,Ipswich,39,Premier League,Attacker,28,869,20,6.655000,1,1,10,4,306,8,,15,1,4,65,29,8,4,,7,11,2,0
+20031,M. Harness,Marcus Anthony,Myers-Harness,29,England,57,Ipswich,39,Premier League,Midfielder,2,43,0,6.250000,0,0,,,16,,,1,1,,5,1,1,,,,,0,0
+20089,W. Burns,Wesley James,Burns,31,Wales,57,Ipswich,39,Premier League,Attacker,21,933,17,6.676470,,1,4,1,199,10,,13,2,10,98,41,23,9,,11,4,1,0
+20457,C. Burgess,Cameron Robert,Burgess,30,Australia,57,Ipswich,39,Premier League,Defender,23,1540,19,6.894444,,2,8,3,770,7,,17,15,14,95,65,,,,4,6,0,0
+70747,J. Enciso,Julio César,Enciso Espínola,21,Paraguay,57,Ipswich,39,Premier League,Midfielder,13,878,12,6.827272,2,0,17,11,130,5,,,,,50,23,18,10,,7,3,3,0
+82097,A. Palmer,Alexander,Palmer,29,England,57,Ipswich,39,Premier League,Goalkeeper,13,1170,13,7.092307,,0,,,368,1,,,,,9,9,,,,4,1,2,0
+126791,N. Broadhead,Nathan Paul,Broadhead,27,Wales,57,Ipswich,39,Premier League,Attacker,25,697,17,6.666666,2,0,9,8,216,7,,9,1,4,92,40,32,17,,13,4,1,0
+127579,J. Greaves,Jacob,Greaves,25,England,57,Ipswich,39,Premier League,Defender,27,2205,26,6.892000,1,0,8,4,1093,6,,40,26,21,221,148,5,4,,21,16,5,0
+138836,H. Clarke,Harrison Thomas,Clarke,24,England,57,Ipswich,39,Premier League,Defender,7,377,4,6.333333,0,0,1,1,208,1,,5,4,4,32,17,2,1,,1,5,2,0
+138931,J. Philogene,Jaden,Philogene-Bidace,23,England,57,Ipswich,39,Premier League,Attacker,10,474,5,6.530000,2,0,6,,81,1,,11,,3,51,23,12,4,,8,12,1,0
+161948,L. Delap,Liam Rory,Delap,22,England,57,Ipswich,39,Premier League,Attacker,37,2612,35,6.878378,12,2,53,32,346,20,,11,,2,414,158,76,40,,51,72,11,0
+284428,O. Hutchinson,Omari Elijah,Giraud-Hutchinson,22,Jamaica,57,Ipswich,39,Premier League,Attacker,31,2594,30,6.638709,3,2,28,19,788,31,,32,2,11,348,135,119,51,,46,30,5,0
+299813,Ali Al Hamadi,Ali Ibrahim Karim,Al Hamadi,23,Iraq,57,Ipswich,39,Premier League,Attacker,13,144,6,6.510000,,0,2,,30,2,,1,,,39,13,7,4,,3,8,3,0
+2298,C. Hudson-Odoi,Callum James,Hudson-Odoi,25,England,65,Nottingham Forest,39,Premier League,Attacker,32,2218,30,7.164516,5,2,26,17,755,45,,23,,13,155,87,54,36,,25,12,2,0
+2771,O. Aina,Temitayo Olufisayo Olaoluwa,Aina,29,Nigeria,65,Nottingham Forest,39,Premier League,Defender,35,3002,35,6.888571,2,1,8,2,1027,16,,55,12,33,253,135,60,33,,35,23,5,0
+2817,N. Milenković,Nikola,Milenković,28,Serbia,65,Nottingham Forest,39,Premier League,Defender,37,3330,37,7.127027,5,2,24,8,1023,9,,50,24,27,223,156,1,1,,5,20,4,0
+2919,M. Sels,Matz Willy Els,Sels,33,Belgium,65,Nottingham Forest,39,Premier League,Goalkeeper,38,3420,38,7.142105,,0,,,901,2,,1,,,29,26,,,,10,1,4,0
+2938,J. Ward-Prowse,James Michael Edward,Ward-Prowse,31,England,65,Nottingham Forest,39,Premier League,Midfielder,9,399,5,6.588888,0,1,1,1,162,5,,4,2,5,23,9,,,,2,7,1,0
+6056,N. Domínguez,Nicolás Martín,Domínguez,27,Argentina,65,Nottingham Forest,39,Premier League,Midfielder,37,1970,30,6.885294,,1,18,9,925,13,,86,12,29,246,134,7,3,,18,33,9,0
+8598,T. Awoniyi,Taiwo Micheal,Awoniyi,28,Nigeria,65,Nottingham Forest,39,Premier League,Attacker,33,477,18,6.416666,1,0,9,4,93,2,,6,,,106,33,9,4,,10,8,0,0
+17365,H. Toffolo,Harry Stefano,Toffolo,30,England,65,Nottingham Forest,39,Premier League,Defender,24,135,13,7.033333,,0,,,35,,,5,2,2,8,6,,,,,1,1,0
+18739,W. Boly,Willy-Arnaud,Zobo Boly,35,Côte d'Ivoire,65,Nottingham Forest,39,Premier League,Defender,6,146,4,6.750000,,0,1,1,70,,,6,2,3,15,12,,,,,1,1,0
+18746,M. Gibbs-White,Morgan Anthony,Gibbs-White,25,England,65,Nottingham Forest,39,Premier League,Midfielder,34,2822,34,7.264705,7,8,48,22,1214,52,,43,5,21,344,155,67,32,,40,38,11,1
+18931,C. Wood,Christopher Grant,Wood,34,New Zealand,65,Nottingham Forest,39,Premier League,Attacker,36,2978,35,6.986111,20,3,56,35,482,22,,6,7,5,338,129,13,5,,24,25,1,0
+19305,R. Yates,Ryan James,Yates,28,England,65,Nottingham Forest,39,Premier League,Midfielder,35,1905,18,6.782857,2,1,22,9,747,18,,42,10,25,268,145,14,9,,49,53,10,0
+22149,I. Sangaré,Ibrahim,Sangaré,28,Côte d'Ivoire,65,Nottingham Forest,39,Premier League,Midfielder,18,597,12,6.800000,,1,1,1,320,5,,28,4,6,85,46,1,,,8,16,3,0
+47547,Álex Moreno,Alexandre,Moreno Lopera,32,Spain,65,Nottingham Forest,39,Premier League,Defender,15,959,11,6.653333,0,1,1,,320,8,,25,5,15,101,42,16,8,,6,12,2,0
+67943,Morato,Felipe,Rodrigues da Silva,25,Brazil,65,Nottingham Forest,39,Premier League,Defender,26,922,18,6.607692,,0,1,1,306,,,22,5,9,68,32,2,2,,2,11,5,0
+138780,N. Williams,Neco Shay,Williams,24,Wales,65,Nottingham Forest,39,Premier League,Defender,38,2599,34,7.002857,1,3,21,7,850,18,,90,10,31,317,191,37,18,,43,24,7,0
+138908,E. Anderson,Elliot,Anderson,23,Scotland,65,Nottingham Forest,39,Premier League,Midfielder,37,2742,34,7.027027,2,6,20,7,1287,37,,91,9,31,462,242,69,37,,58,48,10,0
+141901,Jota Silva,João Pedro,Ferreira Silva,27,Portugal,65,Nottingham Forest,39,Premier League,Forward,31,891,18,6.770000,3,1,16,7,171,14,,27,1,12,184,82,25,10,,23,24,5,0
+153430,A. Elanga,Anthony David,Junior Elanga,23,Sweden,65,Nottingham Forest,39,Premier League,Attacker,38,2511,31,7.018421,6,11,37,24,631,50,,20,1,6,256,116,64,25,,47,9,1,0
+196298,R. Sosa,Ramón,Sosa Acosta,26,Paraguay,65,Nottingham Forest,39,Premier League,Attacker,32,327,15,6.729411,1,0,8,5,84,8,,5,,4,51,25,12,8,,8,6,1,0
+275170,Danilo Santos,Danilo,dos Santos de Oliveira,25,Brazil,65,Nottingham Forest,39,Premier League,Midfielder,8,293,7,6.585714,,0,,,117,,,8,1,4,22,12,6,3,,,2,0,0
+363695,Murillo,Murillo,Santiago Costa dos Santos,23,Brazil,65,Nottingham Forest,39,Premier League,Defender,36,3191,36,7.183333,2,0,20,6,1415,13,,53,45,35,218,130,36,27,,6,27,6,0
+380492,Eric Emanuel da Silva Moreira,Eric Emanuel,da Silva Moreira,20,Germany,65,Nottingham Forest,39,Premier League,Midfielder,2,28,1,6.200000,,0,,,5,,,2,,1,7,2,1,,,,,0,0
+249,D. Malen,Donyell,Malen,26,Netherlands,66,Aston Villa,39,Premier League,Attacker,17,332,11,6.761538,3,0,13,9,67,3,,7,,,40,20,9,4,,5,1,0,0
+746,Marco Asensio,Marco,Asensio Willemsen,30,Spain,66,Aston Villa,39,Premier League,Forward,13,745,12,7.100000,3,1,19,11,272,16,,7,1,2,58,27,17,12,,8,11,2,0
+766,R. Olsen,Robin Patrick,Olsen,35,Sweden,66,Aston Villa,39,Premier League,Goalkeeper,4,223,1,6.775000,0,0,,,100,,,1,,,1,1,,,,,,0,0
+889,V. Lindelöf,Victor Jörgen,Nilsson Lindelöf,32,Sweden,66,Aston Villa,39,Premier League,Defender,23,725,15,6.671428,,0,,,380,3,,7,4,8,50,25,,,,1,8,1,0
+909,M. Rashford,Marcus,Rashford,28,England,66,Aston Villa,39,Premier League,Attacker,10,441,4,7.000000,2,2,14,7,134,13,,10,,1,48,23,22,9,,3,1,0,0
+983,L. Bailey,Leon Patrick,Bailey Butler,28,Jamaica,66,Aston Villa,39,Premier League,Attacker,29,1151,23,6.760869,1,2,13,6,352,16,,7,,3,131,53,46,22,,18,12,3,0
+1904,B. Kamara,Boubacar Bernard,Kamara,26,France,66,Aston Villa,39,Premier League,Midfielder,27,1735,25,6.857692,1,0,7,3,930,11,,50,7,18,223,115,18,9,,35,30,2,0
+2287,R. Barkley,Ross,Barkley,32,England,66,Aston Villa,39,Premier League,Midfielder,20,566,3,6.830000,3,1,12,6,392,9,,14,3,10,64,35,16,12,,3,8,3,0
+2724,L. Digne,Lucas,Digne,32,France,66,Aston Villa,39,Premier League,Defender,38,2358,31,6.971875,,4,8,3,979,36,,65,4,25,221,127,18,9,,16,21,4,0
+2926,Y. Tielemans,Youri Marion A.,Tielemans,28,Belgium,66,Aston Villa,39,Premier League,Midfielder,36,3032,36,7.394444,3,7,27,13,1930,62,46,84,16,23,331,193,50,31,,56,41,4,0
+13489,J. Durán,Jhon Jader,Durán Palacio,22,Colombia,66,Aston Villa,39,Premier League,Forward,20,626,12,6.770000,7,0,26,15,159,4,,8,,,106,45,13,3,,15,14,3,1
+19071,E. Buendía,Emiliano,Buendía Stati,29,Argentina,66,Aston Villa,39,Premier League,Midfielder,12,87,0,6.560000,0,0,4,,60,1,,6,1,,27,12,2,,,6,4,1,0
+19170,M. Rogers,Morgan Elliot,Rogers,23,England,66,Aston Villa,39,Premier League,Attacker,37,3129,37,6.989189,8,10,34,20,865,52,,43,7,6,445,173,140,66,,51,50,10,0
+19179,T. Mings,Tyrone Deon,Mings,32,England,66,Aston Villa,39,Premier League,Defender,14,1121,12,7.028571,0,0,7,1,675,3,42,7,11,7,74,47,3,2,,11,4,1,0
+19191,J.  McGinn,John,McGinn,31,Scotland,66,Aston Villa,39,Premier League,Midfielder,34,2247,32,6.950000,1,4,21,5,790,32,,33,2,14,253,139,33,20,,69,43,7,0
+19192,J. Ramsey,Jacob Matthew,Ramsey,24,England,66,Aston Villa,39,Premier League,Midfielder,29,1631,19,6.879310,1,3,12,4,569,22,,30,4,8,161,90,38,25,,28,13,3,0
+19298,M. Cash,Matthew Stuart,Cash,28,Poland,66,Aston Villa,39,Premier League,Defender,29,2077,25,6.929629,1,1,12,6,763,11,,56,8,23,199,116,35,19,,20,27,7,0
+19354,E. Konsa,Ezri,Konsa Ngoyo,28,England,66,Aston Villa,39,Premier League,Defender,35,2937,34,6.923529,2,0,9,5,1636,6,44,34,11,24,174,120,15,8,,47,9,1,0
+19366,O. Watkins,Oliver George Arthur,Watkins,30,England,66,Aston Villa,39,Premier League,Attacker,38,2610,36,6.907894,16,8,67,40,415,25,,10,3,8,290,105,37,10,,33,29,2,0
+19599,E. Martínez,Damián Emiliano,Martínez Romero,33,Argentina,66,Aston Villa,39,Premier League,Goalkeeper,37,3196,37,7.094594,,0,,,1247,2,,3,,,22,20,1,1,,6,2,5,1
+21090,Diego Carlos,Diego Carlos,Santos Silva,32,Brazil,66,Aston Villa,39,Premier League,Defender,10,828,9,6.620000,,0,4,1,600,,53,8,7,5,47,22,2,2,,1,11,1,0
+21998,A. Disasi,Axel Wilson Arthur,Disasi Mhakinis Belho,27,France,66,Aston Villa,39,Premier League,Defender,7,488,5,6.714285,0,0,2,,266,3,,9,1,5,48,28,15,9,,2,3,2,0
+46815,Pau Torres,Pau,Francisco Torres,28,Spain,66,Aston Villa,39,Premier League,Defender,28,2020,26,6.708333,,0,5,3,1355,3,50,21,11,10,112,61,17,15,,7,8,2,0
+138816,I. Maatsen,Ian Ethan,Maatsen,23,Netherlands,66,Aston Villa,39,Premier League,Defender,37,1164,25,6.807142,1,2,13,5,616,21,,29,,15,126,61,29,13,,9,11,2,0
+138931,J. Philogene,Jaden,Philogene-Bidace,23,England,66,Aston Villa,39,Premier League,Attacker,11,325,2,6.530000,0,0,6,,81,1,,11,,3,51,23,12,4,,8,12,3,0
+162714,A. Onana,Amadou Ba Zeund Georges,Mvom Onana,24,Belgium,66,Aston Villa,39,Premier League,Midfielder,28,1631,23,6.980769,3,0,13,6,797,10,,55,7,26,209,131,17,14,,30,32,4,0
+284457,L. Bogarde,Lamare Trenton,Chansey Bogarde,21,Netherlands,66,Aston Villa,39,Premier League,Defender,8,476,5,6.550000,0,0,1,1,253,2,,14,3,1,62,33,3,2,,11,8,2,0
+342320,K. Nedeljković,Kosta,Nedeljković,20,Serbia,66,Aston Villa,39,Premier League,Defender,5,121,0,6.520000,0,0,,,41,,,7,,,12,9,2,1,,1,,0,0
